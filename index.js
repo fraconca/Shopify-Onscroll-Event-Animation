@@ -8,15 +8,16 @@ window.onscroll = function () {
 };
 
 function minhaFuncao() {
-  if (document.documentElement.scrollTop <= 50) {
-    document.getElementById('caixaNaveia').className = 'caixa45';
-  } else if (document.documentElement.scrollTop > 51) {
-    document.getElementById('caixaNaveia').className = 'caixa0';
-
-  } else if (document.documentElement.scrollTop > 75) {
-    document.getElementById('caixaNaveia').className = 'parado';
+  if (document.documentElement.scrollTop < 1) {
+    document.getElementById('caixaNaveia').className = 'animaFlutua';
+  } else if (document.documentElement.scrollTop < 50) {
+    document.getElementById('caixaNaveia').className = 'animaFlutua';
+  } else if (document.documentElement.scrollTop > 70) {
+    document.getElementById('caixaNaveia').className = 'animaFlutua';
+  } else if (document.documentElement.scrollTop > 100) {
+    document.getElementById('caixaNaveia').className = 'animaFlutua';
   } else {
-    document.getElementById('caixaNaveia').className = '';
+    document.getElementById('caixaNaveia').className = 'animaFlutua';
   }
 }
 
