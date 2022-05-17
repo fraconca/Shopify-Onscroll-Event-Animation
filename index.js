@@ -8,10 +8,10 @@ window.onscroll = function () {
 };
 
 function minhaFuncao() {
-  if (document.documentElement.scrollTop < 100) {
-    document.getElementById('caixaNaveia').className = 'caixa45';
-  } else if (document.documentElement.scrollTop > 101) {
+  if (document.documentElement.scrollTop <= 50) {
     document.getElementById('caixaNaveia').className = 'caixa0';
+  } else if (document.documentElement.scrollTop > 51) {
+    document.getElementById('caixaNaveia').className = 'caixa45';
   } 
   else {
     document.getElementById('caixaNaveia').className = '';
