@@ -1,26 +1,22 @@
-h1,
-h2 {
-  font-family: Lato;
-}
-#bloco {
-  border: 1px solid black;
-  width: 200px;
-  height: 100px;
-  overflow: scroll;
-}
-
 #caixaFlutuante {
   position: fixed;
+  top: 100px;
+}
+
+.parado {
+  position: fixed;
+  background-color: black;
+  animation: none;
 }
 .caixa0 {
-  background-color: red;
+  /* background-color: red; */
   transform: rotate(0deg);
   transition: transform 1.5s;
   animation: float 5s ease-in-out infinite;
 }
 
 .caixa45 {
-  background-color: yellow;
+  /* background-color: yellow; */
   transform: rotate(-45deg);
   transition: transform 1.5s;
   animation: float 5s ease-in-out infinite;
