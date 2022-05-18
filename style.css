@@ -1,6 +1,9 @@
 #posCaixaFixa {
   position: fixed;
   top: 100px;
+  margin: auto;
+  left: 40%;
+  right: 40%;
 }
 
 .parado {
