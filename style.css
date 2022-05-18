@@ -20,36 +20,20 @@
 .bg04 {
   background-color: purple;
 }
-.pos000 {
-  /* background-color: red; */
-  /* transform: rotate(0deg); */
-  transition: transform 1.5s;
-  animation: flutuando 5s ease-in-out infinite;
-}
-.pos015 {
-  /* background-color: yellow; */
-  /* transform: rotate(-15deg); */
-  transition: transform 1.5s;
-  animation: flutuando 5s ease-in-out infinite;
-}
-.pos030 {
-  /* background-color: yellow; */
-  /* transform: rotate(-30deg); */
-  transition: transform 1.5s;
-  animation: flutuando 5s ease-in-out infinite;
-}
 
 .animaFlutua {
   animation: flutuando 5s ease-in-out infinite;
+  transform: rotate(-25deg) translateY(5px);
 }
 @keyframes flutuando {
   50% {
     /* transform: translateY(20px) rotate(-45deg) scale(1.05,1.05); */
-    transform: translateY(25px);
+    transform: translateY(45px);
+    transform: rotate(-15deg);
   }
 }
 
-.animaRot030 {
+/* .animaRot030 {
   animation: movimento030 5s infinite;
 }
 @keyframes movimento030 {
@@ -78,4 +62,4 @@
   50% {
     transform: rotate(0deg);
   }
-}
+} */
