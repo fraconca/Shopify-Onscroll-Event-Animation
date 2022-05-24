@@ -13,50 +13,37 @@ window.onscroll = function () {
 scrollRotate(-30);
 function minhaFuncao() {
   if (document.documentElement.scrollTop < 100) {
-   
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg01';
     scrollRotate(-30);
-
-  } else if (document.documentElement.scrollTop < 200) {
-   
+  } else if (document.documentElement.scrollTop < 1000) {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg01';
     scrollRotate(-30);
-
-  } else if (document.documentElement.scrollTop < 1500) {
-    
+  } else if (document.documentElement.scrollTop < 2000) {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg02';
     scrollRotate(-30);
-
-  } else if (document.documentElement.scrollTop < 2000) {
-    
+  } else if (document.documentElement.scrollTop < 3000) {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg03';
     scrollRotate(-30);
 
     var posicao = document.getElementById('divCaixaNaveia');
     posicao.className = 'posCaixaParada';
-    
   } else {
-    // var prop = document.getElementById('caixaNaveia');
-    console.log("FIM");
-    // prop.className = 'bg04';
+    console.log('FIM');
+    scrollRotate(0);
   }
 }
 
 // FUNCAO ROTACIONAR
 function scrollRotate(valRotaciona) {
   let valor = valRotaciona;
-
-  // console.log('ROTACIONAR: ' + valor);
-
-  let rotacionar = valor + window.pageYOffset / 30;
+  let rotacionar = valor + window.pageYOffset / 60;
   let image = document.getElementById('caixaNaveia');
   image.style.transform = 'translateY(45px) rotate(' + rotacionar + 'deg)';
 
-  // image.style.animation ('flutuando 5s ease-in-out infinite');
 }
 
 // FUNCAO CALCULA SCROLL

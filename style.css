@@ -24,14 +24,11 @@
 }
 
 .animaFlutua {
-  animation: flutuando 5s ease-in-out infinite;
-  transform: rotate(-25deg) translateY(5px);
+  animation: flutuando 3s ease-in-out infinite;
 }
 @keyframes flutuando {
   50% {
-    /* transform: translateY(20px) rotate(-45deg) scale(1.05,1.05); */
-    transform: translateY(45px);
-    transform: rotate(-15deg);
+    transform: translateY(5px) rotate(-5deg) scale(1.01,1.01);
   }
 }
 
