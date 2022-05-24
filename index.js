@@ -29,8 +29,13 @@ function minhaFuncao() {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg03';
     scrollRotate(-30);
+
+    var posicao = document.getElementById('divCaixaNaveia');
+    posicao.className = 'posCaixaParada';
+    
   } else {
-    var prop = document.getElementById('caixaNaveia');
+    // var prop = document.getElementById('caixaNaveia');
+    console.log("FIM");
     // prop.className = 'bg04';
   }
 }

@@ -1,16 +1,13 @@
-#posCaixaFixa {
+.posCaixaFixa {
   position: fixed;
   top: 100px;
-  margin: auto;
-  left: 40%;
-  right: 40%;
+}
+.posCaixaParada {
+  position: relative;
+  background-color: black;
+  top: 0px;
 }
 
-.parado {
-  position: fixed;
-  background-color: black;
-  animation: none;
-}
 .bg01 {
   background-color: greenyellow;
 }
