@@ -1,5 +1,5 @@
 #reguaTesteTela {
-  height: 3000px;
+  height: 5000px;
 }
 .posCaixaFixa {
   position: fixed;
@@ -28,7 +28,7 @@
 }
 @keyframes flutuando {
   50% {
-    transform: translateY(5px) rotate(-5deg) scale(1.01,1.01);
+    transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
   }
 }
 

@@ -28,12 +28,10 @@ function minhaFuncao() {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg03';
     scrollRotate(-30);
-
+  } else {
     var posicao = document.getElementById('divCaixaNaveia');
     posicao.className = 'posCaixaParada';
-  } else {
     console.log('FIM');
-    scrollRotate(0);
   }
 }
 
@@ -43,7 +41,6 @@ function scrollRotate(valRotaciona) {
   let rotacionar = valor + window.pageYOffset / 60;
   let image = document.getElementById('caixaNaveia');
   image.style.transform = 'translateY(45px) rotate(' + rotacionar + 'deg)';
-
 }
 
 // FUNCAO CALCULA SCROLL
