@@ -1,11 +1,13 @@
+#reguaTesteTela {
+  height: 3000px;
+}
 .posCaixaFixa {
   position: fixed;
   top: 100px;
 }
 .posCaixaParada {
   position: relative;
-  background-color: black;
-  top: 0px;
+  top: 2000px;
 }
 
 .bg01 {

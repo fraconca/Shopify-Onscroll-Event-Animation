@@ -13,19 +13,25 @@ window.onscroll = function () {
 scrollRotate(-30);
 function minhaFuncao() {
   if (document.documentElement.scrollTop < 100) {
+   
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg01';
     scrollRotate(-30);
-    console.log('ROTATE OnScroll');
+
   } else if (document.documentElement.scrollTop < 200) {
+   
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg01';
     scrollRotate(-30);
-  } else if (document.documentElement.scrollTop < 500) {
+
+  } else if (document.documentElement.scrollTop < 1500) {
+    
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg02';
     scrollRotate(-30);
-  } else if (document.documentElement.scrollTop < 910) {
+
+  } else if (document.documentElement.scrollTop < 2000) {
+    
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg03';
     scrollRotate(-30);
