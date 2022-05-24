@@ -29,8 +29,7 @@ function minhaFuncao() {
     prop.className = 'bg03';
     scrollRotate(-30);
   } else {
-    var posicao = document.getElementById('divCaixaNaveia');
-    posicao.className = 'posCaixaParada';
+    document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     console.log('FIM');
   }
 }
