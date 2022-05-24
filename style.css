@@ -1,8 +1,22 @@
 /* APAGAR BLOCOS ABAIXO APÓS DEPLOY */
 /* APAGAR BLOCOS ABAIXO APÓS DEPLOY */
 /* APAGAR BLOCOS ABAIXO APÓS DEPLOY */
+body {
+  margin: auto;
+  background-color: #fbf7f6;
+}
 #reguaTesteTela {
   height: 5000px;
+}
+#anBar {
+  height: 48.8px;
+  color: white;
+  background-color: black;
+}
+header{
+  color: white;
+  background-color: orangered;
+  height: 113px;
 }
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
