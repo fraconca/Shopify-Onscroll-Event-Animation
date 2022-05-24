@@ -13,15 +13,21 @@ body {
   color: white;
   background-color: black;
 }
-header{
+header {
   color: white;
   background-color: orangered;
   height: 113px;
 }
+section{
+  max-width: 1200px;
+}
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
-
+#blocoSplash {
+  height: 720px;
+  background-color: bisque;
+}
 .posCaixaFixa {
   position: fixed;
   top: 100px;
