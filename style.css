@@ -72,6 +72,15 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
+.animaFlutua {
+  animation: flutuando 3s ease-in-out infinite;
+}
+@keyframes flutuando {
+  50% {
+    transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
+  }
+}
+
 #blocoSplash {
   height: 720px;
   background-color: bisque;
@@ -99,11 +108,9 @@ img#imgInst{
   top: 2000px;
 }
 
-.animaFlutua {
-  animation: flutuando 3s ease-in-out infinite;
-}
-@keyframes flutuando {
-  50% {
-    transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
-  }
+
+
+div#posDireita {
+  width: 33%;
+  background-color: bisque;
 }
