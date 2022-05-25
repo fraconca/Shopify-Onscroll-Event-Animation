@@ -110,12 +110,10 @@ div#gridIco {
   display: flex;
 }
 div#posDireita {
-  background-color: bisque;
   margin: auto;
   width: 50%;
 }
 div#posEsquerda {
-  background-color: bisque;
   margin: auto;
   width: 50%;
 }
