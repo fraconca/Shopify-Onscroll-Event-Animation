@@ -84,6 +84,12 @@ header {
 img#imgMarquee {
   width: 100%;
 }
+img#imgInst{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 .posCaixaFixa {
   position: fixed;
   top: 100px;
