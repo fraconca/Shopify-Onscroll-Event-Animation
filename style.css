@@ -18,32 +18,6 @@ header {
   background-color: orangered;
   height: 113px;
 }
-/* section {
-  max-width: 1200px;
-} */
-/* APAGAR BLOCOS ACIMA APÓS DEPLOY */
-/* APAGAR BLOCOS ACIMA APÓS DEPLOY */
-/* APAGAR BLOCOS ACIMA APÓS DEPLOY */
-#blocoSplash {
-  height: 720px;
-  background-color: bisque;
-  margin: auto;
-}
-#blocoMarquee {
-  height: max-content;
-  width: 100%;
-}
-img#imgMarquee {
-  width: 100%;
-}
-.posCaixaFixa {
-  position: fixed;
-  top: 100px;
-}
-.posCaixaParada {
-  position: relative;
-  top: 2000px;
-}
 
 .bg01 {
   background-color: greenyellow;
@@ -58,14 +32,9 @@ img#imgMarquee {
   background-color: purple;
 }
 
-.animaFlutua {
-  animation: flutuando 3s ease-in-out infinite;
-}
-@keyframes flutuando {
-  50% {
-    transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
-  }
-}
+/* section {
+  max-width: 1200px;
+} */
 
 /* .animaRot030 {
   animation: movimento030 5s infinite;
@@ -97,3 +66,38 @@ img#imgMarquee {
     transform: rotate(0deg);
   }
 } */
+
+
+
+/* APAGAR BLOCOS ACIMA APÓS DEPLOY */
+/* APAGAR BLOCOS ACIMA APÓS DEPLOY */
+/* APAGAR BLOCOS ACIMA APÓS DEPLOY */
+#blocoSplash {
+  height: 720px;
+  background-color: bisque;
+  margin: auto;
+}
+#blocoMarquee {
+  height: max-content;
+  width: 100%;
+}
+img#imgMarquee {
+  width: 100%;
+}
+.posCaixaFixa {
+  position: fixed;
+  top: 100px;
+}
+.posCaixaParada {
+  position: relative;
+  top: 2000px;
+}
+
+.animaFlutua {
+  animation: flutuando 3s ease-in-out infinite;
+}
+@keyframes flutuando {
+  50% {
+    transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
+  }
+}
