@@ -20,6 +20,7 @@ header {
 }
 section{
   max-width: 1200px;
+  height: 760;
 }
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
@@ -27,6 +28,10 @@ section{
 #blocoSplash {
   height: 720px;
   background-color: bisque;
+}
+#blocoMarquee{
+  height: max-content;
+  width: 100%;
 }
 .posCaixaFixa {
   position: fixed;
