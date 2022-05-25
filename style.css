@@ -106,11 +106,16 @@ img#imgInst {
   top: 2000px;
 }
 
+div#gridIco {
+  display: flex;
+}
 div#posDireita {
-  width: 33%;
   background-color: bisque;
+  margin: auto;
+  width: 50%;
 }
 div#posEsquerda {
-  width: 33%;
   background-color: bisque;
+  margin: auto;
+  width: 50%;
 }
