@@ -34,6 +34,9 @@ section {
   height: max-content;
   width: 100%;
 }
+img#imgMarquee {
+  width: 100%;
+}
 .posCaixaFixa {
   position: fixed;
   top: 100px;
