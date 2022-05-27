@@ -109,8 +109,8 @@ img#imgInst {
 section#blocoIcones {
   max-width: 1100px;
   margin: auto;
-  height: 500px;
-  background-color: bisque;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 div#gridIco {
   display: flex;
@@ -120,9 +120,15 @@ div#posDireita,
 div#posEsquerda {
   width: 50%;
 }
-div#posEsquerda{
+div#posEsquerda {
   text-align: left;
 }
-div#posDireita{
+div#posDireita {
   text-align: right;
+}
+img#icoZeroLac,
+img#icoZeroAc,
+img#icoProteina,
+img#icoOmega3 {
+  margin: 25px;
 }
