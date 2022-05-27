@@ -109,6 +109,8 @@ img#imgInst {
 section#blocoIcones {
   max-width: 1100px;
   margin: auto;
+  height: 500px;
+  background-color: bisque;
 }
 div#gridIco {
   display: flex;
