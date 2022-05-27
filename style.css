@@ -81,7 +81,7 @@ header {
 
 div#posDiv {
   margin: auto;
-  width: 50%;
+  width: 25%;
 }
 #blocoSplash {
   height: 720px;
@@ -107,7 +107,7 @@ img#imgInst {
 }
 .posCaixaParada {
   position: relative;
-  top: 2000px;
+  top: 1500px;
 }
 
 section#blocoIcones {
