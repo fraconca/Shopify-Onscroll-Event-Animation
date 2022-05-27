@@ -20,11 +20,11 @@ function minhaFuncao() {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg01';
     scrollRotate(-30);
-  } else if (document.documentElement.scrollTop < 2000) {
+  } else if (document.documentElement.scrollTop < 1500) {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg02';
     scrollRotate(-30);
-  } else if (document.documentElement.scrollTop < 2200) {
+  } else if (document.documentElement.scrollTop < 1950) {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg03';
     scrollRotate(-30);
