@@ -118,3 +118,9 @@ div#posDireita,
 div#posEsquerda {
   width: 50%;
 }
+div#posEsquerda{
+  text-align: left;
+}
+div#posDireita{
+  text-align: right;
+}
