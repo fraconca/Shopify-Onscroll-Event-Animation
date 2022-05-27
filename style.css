@@ -112,6 +112,7 @@ section#blocoIcones {
 }
 div#gridIco {
   display: flex;
+  text-align: center;
 }
 div#posDireita,
 div#posEsquerda {
