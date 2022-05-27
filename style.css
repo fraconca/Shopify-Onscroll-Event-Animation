@@ -79,6 +79,10 @@ header {
   }
 }
 
+div#posDiv {
+  margin: auto;
+  width: 20%;
+}
 #blocoSplash {
   height: 720px;
   background-color: bisque;
@@ -99,7 +103,7 @@ img#imgInst {
 }
 .posCaixaFixa {
   position: fixed;
-  top: 100px;
+  /* top: 100px; */
 }
 .posCaixaParada {
   position: relative;
