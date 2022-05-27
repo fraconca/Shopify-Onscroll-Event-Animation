@@ -24,7 +24,7 @@ function minhaFuncao() {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg02';
     scrollRotate(-30);
-  } else if (document.documentElement.scrollTop < 3000) {
+  } else if (document.documentElement.scrollTop < 2200) {
     var prop = document.getElementById('caixaNaveia');
     prop.className = 'bg03';
     scrollRotate(-30);
