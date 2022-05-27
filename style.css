@@ -106,14 +106,14 @@ img#imgInst {
   top: 2000px;
 }
 
+section#blocoIcones {
+  max-width: 1100px;
+  margin: auto;
+}
 div#gridIco {
   display: flex;
 }
-div#posDireita {
-  margin: auto;
-  width: 50%;
-}
+div#posDireita,
 div#posEsquerda {
-  margin: auto;
   width: 50%;
 }
