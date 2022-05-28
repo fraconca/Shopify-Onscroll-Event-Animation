@@ -109,6 +109,9 @@ img#imgInst {
   position: relative;
   top: 1950px;
 }
+img#caixaNaveia {
+  width: 75%;
+}
 
 section#blocoIcones {
   max-width: 1200px;
