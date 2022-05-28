@@ -70,6 +70,26 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
+
+img#caixaNaveia {
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  img#caixaNaveia {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  img#caixaNaveia {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  img#caixaNaveia {
+    width: 60%;
+  }
+}
+
 .animaFlutua {
   animation: flutuando 3s ease-in-out infinite;
 }
@@ -109,9 +129,6 @@ img#imgInst {
   position: relative;
   top: 1750px;
 }
-img#caixaNaveia {
-  width: 85%;
-}
 
 section#blocoIcones {
   max-width: 1200px;
@@ -138,4 +155,15 @@ img#icoZeroAc,
 img#icoProteina,
 img#icoOmega3 {
   margin: 25px;
+}
+@media screen and (max-width: 900px) {
+  div#gridIco > div > div > img {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 800px) {
+  div#gridIco > div > div > img {
+    width: 50%;
+    background-color: red;
+  }
 }
