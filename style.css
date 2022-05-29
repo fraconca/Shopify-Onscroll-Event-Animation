@@ -149,36 +149,36 @@ img#imgInst {
     position: relative;
     top: 1750px;
   }
-  .posCaixaParada > img#caixaNaveia {
+  /* .posCaixaParada > img#caixaNaveia {
     width: 375px;
-  }
+  } */
 }
 @media screen and (max-width: 1200px) {
   .posCaixaParada {
     position: relative;
     top: 1750px;
   }
-  .posCaixaParada > img#caixaNaveia {
+  /* .posCaixaParada > img#caixaNaveia {
     width: 350px;
-  }
+  } */
 }
 @media screen and (max-width: 1100px) {
   .posCaixaParada {
     position: relative;
     top: 1750px;
   }
-  .posCaixaParada > img#caixaNaveia {
-    width: 325px;
-  }
+  /* .posCaixaParada > img#caixaNaveia {
+    width: 300px;
+  } */
 }
 @media screen and (max-width: 1000px) {
   .posCaixaParada {
     position: relative;
     top: 1750px;
   }
-  .posCaixaParada > img#caixaNaveia {
+  /* .posCaixaParada > img#caixaNaveia {
     width: 300px;
-  }
+  } */
 }
 
 /* BLOCO ÍCONES */
