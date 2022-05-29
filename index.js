@@ -11,15 +11,22 @@ if (window.innerWidth >= 900) {
 }
 
 if (deviceScreenPC) {
-  console.log('💻 Laptop / PC ###');
+  console.log('### 💻 Laptop / PC');
+  console.log('ACTIVATE FUNC: animaNaveia1');
+  window.onscroll = function () {
+    naveiaAnima1();
+  };
 }
 if (deviceScreenMobile) {
-  console.log('📱 Mobile ###');
+  console.log('### 📱 Mobile');
+  console.log('ACTIVATE FUNC: animaNaveia2');
+  window.onscroll = function () {
+    naveiaAnima2();
+  };
 }
 
 // CHAMAR FUNÇÕES ONSCROLL
 if (window.innerWidth >= 900) {
-  console.log('ACTIVATE FUNC: animaNaveia1');
   window.onscroll = function () {
     naveiaAnima1();
     // scrollRotate();
