@@ -71,6 +71,7 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 
+/* MEDIA IMG CAIXA NAVEIA */
 @media screen and (max-width: 1900px) {
   img#caixaNaveia {
     width: 90%;
@@ -92,6 +93,7 @@ header {
   }
 }
 
+/* ANIMA FLUTUAR */
 .animaFlutua {
   animation: flutuando 3s ease-in-out infinite;
 }
@@ -101,6 +103,7 @@ header {
   }
 }
 
+/* POSIÇÃO GERAL BLOCOS */
 div#posDiv {
   margin: auto;
   width: 25%;
@@ -110,6 +113,8 @@ div#posDiv {
   background-color: bisque;
   margin: auto;
 }
+
+/* BLOCO MARQUEE */
 #blocoMarquee {
   height: max-content;
   width: 100%;
@@ -117,6 +122,8 @@ div#posDiv {
 img#imgMarquee {
   width: 100%;
 }
+
+/* BLOCO INSTITUCIONAL */
 img#imgInst {
   display: block;
   margin-left: auto;
@@ -124,13 +131,14 @@ img#imgInst {
   width: 100%;
 }
 
+/* POSICAO CAIXA FIXA + SCROLL + FLUTUA */
 .posCaixaFixa {
   position: fixed;
   top: 50px;
   width: 350px;
 }
 
-/* CAIXA FIXA E PARADA */
+/* POSICAO CAIXA FIXA + ROTATE */
 .posCaixaParada {
   position: relative;
   width: 300px;
@@ -173,6 +181,7 @@ img#imgInst {
   }
 }
 
+/* BLOCO ÍCONES */
 section#blocoIcones {
   max-width: 1300px;
   margin: auto;
