@@ -127,11 +127,13 @@ img#imgInst {
 .posCaixaFixa {
   position: fixed;
   /* top: 100px; */
+  width: 350px;
 }
 
 /* CAIXA FIXA E PARADA */
 .posCaixaParada {
   position: relative;
+  width: 350px;
   top: 1750px;
 }
 @media screen and (max-width: 1900px) {
@@ -139,11 +141,17 @@ img#imgInst {
     position: relative;
     top: 1750px;
   }
+  .posCaixaParada > img#caixaNaveia {
+    width: 350px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .posCaixaParada {
     position: relative;
     top: 1750px;
+  }
+  .posCaixaParada > img#caixaNaveia {
+    width: 350px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -151,11 +159,17 @@ img#imgInst {
     position: relative;
     top: 1750px;
   }
+  .posCaixaParada > img#caixaNaveia {
+    width: 350px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .posCaixaParada {
     position: relative;
     top: 1750px;
+  }
+  .posCaixaParada > img#caixaNaveia {
+    width: 350px;
   }
 }
 
