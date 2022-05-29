@@ -69,9 +69,9 @@ function minhaFuncao() {
 
 // VERIFICA VIEWPORT WIDTH
 if (window.innerWidth >= 900) {
-  console.log('Vieport width '+ window.innerWidth +'px >MAior que 600px');
+  console.log('Vieport width '+ window.innerWidth +'px MAior ou IGual que 900px');
 } else {
-  console.log('Vieport width '+ window.innerWidth +'px <MEior que 600px');
+  console.log('Vieport width '+ window.innerWidth +'px MEnor que 900px');
 }
 
 // FUNCAO ROTACIONAR
