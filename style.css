@@ -134,7 +134,7 @@ img#imgInst {
 .posCaixaParada {
   position: relative;
   width: 300px;
-  /* top: 1750px; */
+  top: 1750px;
 }
 @media screen and (max-width: 1900px) {
   .posCaixaParada {
