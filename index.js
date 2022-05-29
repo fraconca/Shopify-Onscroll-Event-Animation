@@ -30,34 +30,21 @@ if (deviceScreenMobile) {
   };
 }
 
-
 // Rotate
 scrollRotate1(-30);
 
-// FUNÇÃO ANIMA 1
+// Func Anima PC 1
 function naveiaAnimaPC() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
-    // var prop = document.getElementById('caixaNaveia');
-    // prop.className = 'bg01';
     scrollRotate1(-30);
   } else if (
     window.innerWidth >= 600 &&
     document.documentElement.scrollTop < 1000
   ) {
-    // var prop = document.getElementById('caixaNaveia');
-    // prop.className = 'bg01';
     scrollRotate1(-30);
-  } else if (
-    window.innerWidth >= 600 &&
-    document.documentElement.scrollTop < 1900
-  ) {
-    // var prop = document.getElementById('caixaNaveia');
-    // prop.className = 'bg02';
-    // scrollRotate1(-30);
-    // } else if (document.documentElement.scrollTop < 2000) {
-    //   // var prop = document.getElementById('caixaNaveia');
-    //   // prop.className = 'bg03';
-    //   scrollRotate1(-30);
+  } else if (document.documentElement.scrollTop < 2000) {
+
+      scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className =
       'posCaixaParada animaFlutua';
