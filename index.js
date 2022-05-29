@@ -11,10 +11,10 @@ if (window.innerWidth >= 900) {
 }
 
 if (deviceScreenPC) {
-  console.log('💻 Laptop / PC');
+  console.log('💻 Laptop / PC ###');
 }
 if (deviceScreenMobile) {
-  console.log('📱 Mobile');
+  console.log('📱 Mobile ###');
 }
 
 // CHAMAR FUNÇÕES ONSCROLL
