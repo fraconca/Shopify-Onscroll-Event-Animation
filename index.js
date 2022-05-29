@@ -34,15 +34,15 @@ function minhaFuncao() {
     console.log('FIM');
   }
 
-  if (window.innerWidth <= 991) {
+  if (window.innerHeight <= 991) {
     // load mobile script
     // loadScriptFile('https://files.finsweet.com/webflowhacks/hack27-mobile.js');
-    console.log('TELA MENOR QUE 991');
+    console.log('ACIONADO');
   } else {
     // viewportWidth width > 991
     // load desktop script
     // loadScriptFile('https://files.finsweet.com/webflowhacks/hack27-desktop.js');
-    console.log('VIEWPORT MAIOR QUE 992');
+    console.log('TROCA ACIONAMENTO');
   }
 }
 
