@@ -1,7 +1,22 @@
 // Import stylesheets
 import './style.css';
 
+// Check Viewport Width
+if (window.innerWidth >= 900) {
+  console.log('VIEW PORT WIDTH: ' + window.innerWidth + 'px');
+} else {
+  console.log('VIEW PORT WIDTH: ' + window.innerWidth + 'px');
+}
+
 // CHAMAR FUNÇÕES ONSCROLL
+if (window.innerWidth >= 900) {
+  console.log('ACTIVATE FUNC: animaNaveia1');
+  window.onscroll = function () {
+    naveiaAnima1();
+    // scrollRotate();
+  };
+}
+
 window.onscroll = function () {
   minhaFuncao();
   contaScroll();
@@ -67,12 +82,6 @@ function minhaFuncao() {
   // }
 }
 
-// VERIFICA VIEWPORT WIDTH
-if (window.innerWidth >= 900) {
-  console.log('Vieport width '+ window.innerWidth +'px MAior ou IGual que 900px');
-} else {
-  console.log('Vieport width '+ window.innerWidth +'px MEnor que 900px');
-}
 
 // FUNCAO ROTACIONAR
 function scrollRotate(valRotaciona) {
