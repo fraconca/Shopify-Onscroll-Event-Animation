@@ -13,20 +13,20 @@ window.onscroll = function () {
 scrollRotate(-30);
 function minhaFuncao() {
   if (document.documentElement.scrollTop < 100) {
-    var prop = document.getElementById('caixaNaveia');
-    prop.className = 'bg01';
+    // var prop = document.getElementById('caixaNaveia');
+    // prop.className = 'bg01';
     scrollRotate(-30);
   } else if (document.documentElement.scrollTop < 1000) {
-    var prop = document.getElementById('caixaNaveia');
-    prop.className = 'bg01';
+    // var prop = document.getElementById('caixaNaveia');
+    // prop.className = 'bg01';
     scrollRotate(-30);
   } else if (document.documentElement.scrollTop < 1500) {
-    var prop = document.getElementById('caixaNaveia');
-    prop.className = 'bg02';
+    // var prop = document.getElementById('caixaNaveia');
+    // prop.className = 'bg02';
     scrollRotate(-30);
   } else if (document.documentElement.scrollTop < 1750) {
-    var prop = document.getElementById('caixaNaveia');
-    prop.className = 'bg03';
+    // var prop = document.getElementById('caixaNaveia');
+    // prop.className = 'bg03';
     scrollRotate(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
