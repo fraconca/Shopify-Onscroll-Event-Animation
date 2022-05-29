@@ -128,9 +128,35 @@ img#imgInst {
   position: fixed;
   /* top: 100px; */
 }
+
+/* CAIXA FIXA E PARADA */
 .posCaixaParada {
   position: relative;
   top: 1750px;
+}
+@media screen and (max-width: 1900px) {
+  .posCaixaParada {
+    position: relative;
+    top: 1750px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .posCaixaParada {
+    position: relative;
+    top: 1750px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .posCaixaParada {
+    position: relative;
+    top: 1750px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .posCaixaParada {
+    position: relative;
+    top: 1750px;
+  }
 }
 
 section#blocoIcones {
@@ -170,7 +196,7 @@ img#icoOmega3 {
     width: 50%;
   }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   div#gridIco > div > div > img {
     width: 60%;
   }
