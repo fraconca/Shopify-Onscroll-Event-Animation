@@ -7,11 +7,11 @@ if (window.innerWidth >= 900) {
 } else {
   var deviceScreenMobile = window.innerWidth;
 }
-
 if (deviceScreenPC) {
-  console.log('%c ### 💻 Laptop / PC', 'color: yellow; font-weight: bold');
-  console.warn('### Start View Port Width: ' + window.innerWidth + 'px');
-  console.warn('### Start View Port Height: ' + window.innerHeight + 'px');
+  console.log('NAVEIA COMPUTER INIT');
+  console.log('%c### 💻 Laptop / PC', 'color: yellow; font-weight: bold');
+  console.log('### Start View Port Width: ' + window.innerWidth + 'px');
+  console.log('### Start View Port Height: ' + window.innerHeight + 'px');
   console.log('### ACTIVATE FUNC: animaNaveia1');
   window.onscroll = function () {
     naveiaAnima1();
@@ -19,9 +19,10 @@ if (deviceScreenPC) {
   };
 }
 if (deviceScreenMobile) {
-  console.log('%c ### 📱 Mobile', 'color: yellowgreen; font-weight: bold');
-  console.warn('### Start View Port Width: ' + window.innerWidth + 'px');
-  console.warn('### Start View Port Height: ' + window.innerHeight + 'px');
+  console.log('NAVEIA MOBILE INIT');
+  console.log('%c### 📱 Mobile', 'color: yellowgreen; font-weight: bold');
+  console.log('### Start View Port Width: ' + window.innerWidth + 'px');
+  console.log('### Start View Port Height: ' + window.innerHeight + 'px');
   console.log('### ACTIVATE FUNC: animaNaveia2');
   window.onscroll = function () {
     naveiaAnima2();
@@ -75,17 +76,6 @@ function animaNaveia1() {
   ) {
     scrollRotate(-30);
   }
-
-  // if (window.innerHeight <= 991) {
-  //   // load mobile script
-  //   // loadScriptFile('https://files.finsweet.com/webflowhacks/hack27-mobile.js');
-  //   console.log('ACIONADO');
-  // } else {
-  //   // viewportWidth width > 991
-  //   // load desktop script
-  //   // loadScriptFile('https://files.finsweet.com/webflowhacks/hack27-desktop.js');
-  //   console.log('TROCA ACIONAMENTO');
-  // }
 }
 
 // FUNCAO ROTACIONAR
