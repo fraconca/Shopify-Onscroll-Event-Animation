@@ -3,10 +3,10 @@ import './style.css';
 
 // Check Viewport Width
 if (window.innerWidth >= 900) {
-  console.log('### View Port Width: ' + window.innerWidth + 'px');
+  console.log('### Start View Port Width: ' + window.innerWidth + 'px');
   var deviceScreenPC = window.innerWidth;
 } else {
-  console.log('### View Port Width: ' + window.innerWidth + 'px');
+  console.log('### Start View Port Width: ' + window.innerWidth + 'px');
   var deviceScreenMobile = window.innerWidth;
 }
 
