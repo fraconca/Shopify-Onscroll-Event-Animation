@@ -134,8 +134,8 @@ img#imgInst {
 /* POSICAO CAIXA FIXA + SCROLL + FLUTUA */
 .posCaixaFixa {
   position: fixed;
-  top: 50px;
-  width: 350px;
+  top: 100px;
+  width: 300px;
 }
 
 /* POSICAO CAIXA FIXA + ROTATE */
