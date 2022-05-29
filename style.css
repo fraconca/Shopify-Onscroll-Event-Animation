@@ -126,7 +126,7 @@ img#imgInst {
 
 .posCaixaFixa {
   position: fixed;
-  /* top: 100px; */
+  top: 50px;
   width: 350px;
 }
 
