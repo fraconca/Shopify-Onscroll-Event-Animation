@@ -3,9 +3,18 @@ import './style.css';
 
 // Check Viewport Width
 if (window.innerWidth >= 900) {
-  console.log('VIEW PORT WIDTH: ' + window.innerWidth + 'px');
+  console.log('### View Port Width: ' + window.innerWidth + 'px');
+  var deviceScreenPC = window.innerWidth;
 } else {
-  console.log('VIEW PORT WIDTH: ' + window.innerWidth + 'px');
+  console.log('### View Port Width: ' + window.innerWidth + 'px');
+  var deviceScreenMobile = window.innerWidth;
+}
+
+if (deviceScreenPC) {
+  console.log('💻 Laptop / PC');
+}
+if (deviceScreenMobile) {
+  console.log('📱 Mobile');
 }
 
 // CHAMAR FUNÇÕES ONSCROLL
@@ -81,7 +90,6 @@ function minhaFuncao() {
   //   console.log('TROCA ACIONAMENTO');
   // }
 }
-
 
 // FUNCAO ROTACIONAR
 function scrollRotate(valRotaciona) {
