@@ -14,7 +14,7 @@ if (deviceScreenPC) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveia1');
   window.onscroll = function () {
-    naveiaAnima1();
+    naveiaAnimaPC();
     contaScroll();
   };
 }
@@ -30,12 +30,12 @@ if (deviceScreenMobile) {
   };
 }
 
-// FUNCAO SELECIONAR ELEMENTOS
-// Iniciar Rotate -25 graus
+
+// Rotate
 scrollRotate1(-30);
 
 // FUNÇÃO ANIMA 1
-function naveiaAnima1() {
+function naveiaAnimaPC() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg01';
@@ -78,7 +78,7 @@ function naveiaAnima1() {
     scrollRotate1(-30);
   }
 }
-// FUNÇÃO ANIMA 2
+// FUNÇÃO ANIMA 💻
 function naveiaAnima2() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
     // var prop = document.getElementById('caixaNaveia');
