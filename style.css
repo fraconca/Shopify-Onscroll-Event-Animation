@@ -73,7 +73,7 @@ header {
 
 @media screen and (max-width: 1900px) {
   img#caixaNaveia {
-    width: 100%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -134,7 +134,7 @@ img#imgInst {
 .posCaixaParada {
   position: relative;
   width: 300px;
-  top: 1800px;
+  top: 1900px;
 }
 @media screen and (max-width: 1900px) {
   .posCaixaParada {
