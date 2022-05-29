@@ -11,19 +11,26 @@ window.onscroll = function () {
 // FUNCAO SELECIONAR ELEMENTOS
 // Iniciar Rotate -25 graus
 scrollRotate(-30);
+
 function minhaFuncao() {
-  if (document.documentElement.scrollTop < 100) {
+  if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg01';
     scrollRotate(-30);
-  } else if (document.documentElement.scrollTop < 1000) {
+  } else if (
+    window.innerWidth >= 600 &&
+    document.documentElement.scrollTop < 1000
+  ) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg01';
     scrollRotate(-30);
-  } else if (document.documentElement.scrollTop < 1900) {
+  } else if (
+    window.innerWidth >= 600 &&
+    document.documentElement.scrollTop < 1900
+  ) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg02';
-    scrollRotate(-30);
+    // scrollRotate(-30);
     // } else if (document.documentElement.scrollTop < 2000) {
     //   // var prop = document.getElementById('caixaNaveia');
     //   // prop.className = 'bg03';
@@ -34,16 +41,37 @@ function minhaFuncao() {
     console.log('FIM');
   }
 
-  if (window.innerHeight <= 991) {
-    // load mobile script
-    // loadScriptFile('https://files.finsweet.com/webflowhacks/hack27-mobile.js');
-    console.log('ACIONADO');
-  } else {
-    // viewportWidth width > 991
-    // load desktop script
-    // loadScriptFile('https://files.finsweet.com/webflowhacks/hack27-desktop.js');
-    console.log('TROCA ACIONAMENTO');
+  if (window.innerWidth <= 599 && document.documentElement.scrollTop < 100) {
+    scrollRotate(-30);
+  } else if (
+    window.innerWidth <= 599 &&
+    document.documentElement.scrollTop < 1000
+  ) {
+    scrollRotate(-30);
+  } else if (
+    window.innerWidth <= 599 &&
+    document.documentElement.scrollTop < 1900
+  ) {
+    scrollRotate(-30);
   }
+
+  // if (window.innerHeight <= 991) {
+  //   // load mobile script
+  //   // loadScriptFile('https://files.finsweet.com/webflowhacks/hack27-mobile.js');
+  //   console.log('ACIONADO');
+  // } else {
+  //   // viewportWidth width > 991
+  //   // load desktop script
+  //   // loadScriptFile('https://files.finsweet.com/webflowhacks/hack27-desktop.js');
+  //   console.log('TROCA ACIONAMENTO');
+  // }
+}
+
+// VERIFICA VIEWPORT WIDTH
+if (window.innerWidth >= 900) {
+  console.log('Vieport width '+ window.innerWidth +'px >MAior que 600px');
+} else {
+  console.log('Vieport width '+ window.innerWidth +'px <MEior que 600px');
 }
 
 // FUNCAO ROTACIONAR
