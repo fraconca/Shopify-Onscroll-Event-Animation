@@ -3,47 +3,37 @@ import './style.css';
 
 // Check Viewport Width
 if (window.innerWidth >= 900) {
-  console.log('### Start View Port Width: ' + window.innerWidth + 'px');
   var deviceScreenPC = window.innerWidth;
 } else {
-  console.log('### Start View Port Width: ' + window.innerWidth + 'px');
   var deviceScreenMobile = window.innerWidth;
 }
 
 if (deviceScreenPC) {
-  console.log('### 💻 Laptop / PC');
-  console.log('ACTIVATE FUNC: animaNaveia1');
+  console.log('%c ### 💻 Laptop / PC', 'color: yellow; font-weight: bold');
+  console.warn('### Start View Port Width: ' + window.innerWidth + 'px');
+  console.warn('### Start View Port Height: ' + window.innerHeight + 'px');
+  console.log('### ACTIVATE FUNC: animaNaveia1');
   window.onscroll = function () {
     naveiaAnima1();
+    contaScroll();
   };
 }
 if (deviceScreenMobile) {
-  console.log('### 📱 Mobile');
-  console.log('ACTIVATE FUNC: animaNaveia2');
+  console.log('%c ### 📱 Mobile', 'color: yellowgreen; font-weight: bold');
+  console.warn('### Start View Port Width: ' + window.innerWidth + 'px');
+  console.warn('### Start View Port Height: ' + window.innerHeight + 'px');
+  console.log('### ACTIVATE FUNC: animaNaveia2');
   window.onscroll = function () {
     naveiaAnima2();
+    contaScroll();
   };
 }
-
-// CHAMAR FUNÇÕES ONSCROLL
-if (window.innerWidth >= 900) {
-  window.onscroll = function () {
-    naveiaAnima1();
-    // scrollRotate();
-  };
-}
-
-window.onscroll = function () {
-  minhaFuncao();
-  contaScroll();
-  // scrollRotate();
-};
 
 // FUNCAO SELECIONAR ELEMENTOS
 // Iniciar Rotate -25 graus
 scrollRotate(-30);
 
-function minhaFuncao() {
+function animaNaveia1() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg01';
