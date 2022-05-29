@@ -71,8 +71,10 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 
-img#caixaNaveia {
-  width: 100%;
+@media screen and (max-width: 1900px) {
+  img#caixaNaveia {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1200px) {
   img#caixaNaveia {
@@ -121,6 +123,7 @@ img#imgInst {
   margin-right: auto;
   width: 100%;
 }
+
 .posCaixaFixa {
   position: fixed;
   /* top: 100px; */
