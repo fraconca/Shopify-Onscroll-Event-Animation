@@ -8,22 +8,22 @@ if (window.innerWidth >= 900) {
   var deviceScreenMobile = window.innerWidth;
 }
 if (deviceScreenPC) {
-  console.log('NAVEIA COMPUTER INIT');
+  console.log('%cNAVEIA COMPUTER INIT', 'color: yellow; font-weight: bold');
   console.log('%c### 💻 Laptop / PC', 'color: yellow; font-weight: bold');
-  console.log('### Start View Port Width: ' + window.innerWidth + 'px');
-  console.log('### Start View Port Height: ' + window.innerHeight + 'px');
-  console.log('### ACTIVATE FUNC: animaNaveia1');
+  console.log('### View Port Width: ' + window.innerWidth + 'px');
+  console.log('### View Port Height: ' + window.innerHeight + 'px');
+  console.log('### Função: animaNaveia1');
   window.onscroll = function () {
     naveiaAnima1();
     contaScroll();
   };
 }
 if (deviceScreenMobile) {
-  console.log('NAVEIA MOBILE INIT');
+  console.log('%cNAVEIA MOBILE INIT', 'color: yellowgreen; font-weight: bold');
   console.log('%c### 📱 Mobile', 'color: yellowgreen; font-weight: bold');
-  console.log('### Start View Port Width: ' + window.innerWidth + 'px');
-  console.log('### Start View Port Height: ' + window.innerHeight + 'px');
-  console.log('### ACTIVATE FUNC: animaNaveia2');
+  console.log('### View Port Width: ' + window.innerWidth + 'px');
+  console.log('### View Port Height: ' + window.innerHeight + 'px');
+  console.log('### Função: animaNaveia2');
   window.onscroll = function () {
     naveiaAnima2();
     contaScroll();
@@ -32,31 +32,32 @@ if (deviceScreenMobile) {
 
 // FUNCAO SELECIONAR ELEMENTOS
 // Iniciar Rotate -25 graus
-scrollRotate(-30);
+scrollRotate1(-30);
 
-function animaNaveia1() {
+// FUNÇÃO ANIMA 1
+function naveiaAnima1() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg01';
-    scrollRotate(-30);
+    scrollRotate1(-30);
   } else if (
     window.innerWidth >= 600 &&
     document.documentElement.scrollTop < 1000
   ) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg01';
-    scrollRotate(-30);
+    scrollRotate1(-30);
   } else if (
     window.innerWidth >= 600 &&
     document.documentElement.scrollTop < 1900
   ) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg02';
-    // scrollRotate(-30);
+    // scrollRotate1(-30);
     // } else if (document.documentElement.scrollTop < 2000) {
     //   // var prop = document.getElementById('caixaNaveia');
     //   // prop.className = 'bg03';
-    //   scrollRotate(-30);
+    //   scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className =
       'posCaixaParada animaFlutua';
@@ -64,22 +65,74 @@ function animaNaveia1() {
   }
 
   if (window.innerWidth <= 599 && document.documentElement.scrollTop < 100) {
-    scrollRotate(-30);
+    scrollRotate1(-30);
   } else if (
     window.innerWidth <= 599 &&
     document.documentElement.scrollTop < 1000
   ) {
-    scrollRotate(-30);
+    scrollRotate1(-30);
   } else if (
     window.innerWidth <= 599 &&
     document.documentElement.scrollTop < 1900
   ) {
-    scrollRotate(-30);
+    scrollRotate1(-30);
+  }
+}
+// FUNÇÃO ANIMA 2
+function naveiaAnima2() {
+  if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
+    // var prop = document.getElementById('caixaNaveia');
+    // prop.className = 'bg01';
+    scrollRotate1(-30);
+  } else if (
+    window.innerWidth >= 600 &&
+    document.documentElement.scrollTop < 1000
+  ) {
+    // var prop = document.getElementById('caixaNaveia');
+    // prop.className = 'bg01';
+    scrollRotate1(-30);
+  } else if (
+    window.innerWidth >= 600 &&
+    document.documentElement.scrollTop < 1900
+  ) {
+    // var prop = document.getElementById('caixaNaveia');
+    // prop.className = 'bg02';
+    // scrollRotate1(-30);
+    // } else if (document.documentElement.scrollTop < 2000) {
+    //   // var prop = document.getElementById('caixaNaveia');
+    //   // prop.className = 'bg03';
+    //   scrollRotate1(-30);
+  } else {
+    document.getElementById('divCaixaNaveia').className =
+      'posCaixaParada animaFlutua';
+    console.log('FIM');
+  }
+
+  if (window.innerWidth <= 599 && document.documentElement.scrollTop < 100) {
+    scrollRotate1(-30);
+  } else if (
+    window.innerWidth <= 599 &&
+    document.documentElement.scrollTop < 1000
+  ) {
+    scrollRotate1(-30);
+  } else if (
+    window.innerWidth <= 599 &&
+    document.documentElement.scrollTop < 1900
+  ) {
+    scrollRotate1(-30);
   }
 }
 
-// FUNCAO ROTACIONAR
-function scrollRotate(valRotaciona) {
+// FUNCAO ROTACIONAR 1 / LAPTOP + PC
+function scrollRotate1(valRotaciona) {
+  let valor = valRotaciona;
+  let rotacionar = valor + window.pageYOffset / 60;
+  let image = document.getElementById('caixaNaveia');
+  image.style.transform = 'translateY(45px) rotate(' + rotacionar + 'deg)';
+}
+
+// FUNCAO ROTACIONAR 1 / LAPTOP + PC
+function scrollRotate1(valRotaciona) {
   let valor = valRotaciona;
   let rotacionar = valor + window.pageYOffset / 60;
   let image = document.getElementById('caixaNaveia');
