@@ -177,7 +177,7 @@ img#imgInst {
 @media screen and (max-width: 1920px) {
   .posCaixaParada {
     position: relative;
-    top: 1950px;
+    top: 1800px;
   }
   /* .posCaixaParada > img#caixaNaveia {
     width: 375px;

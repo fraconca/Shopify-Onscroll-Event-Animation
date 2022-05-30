@@ -45,44 +45,42 @@ function naveiaAnimaPC1() {
     document.documentElement.scrollTop < 1000
   ) {
     scrollRotate1(-30);
-  } else if (document.documentElement.scrollTop < 2000) {
+  } else if (document.documentElement.scrollTop < 1850) {
     scrollRotate1(-30);
   } else {
-    document.getElementById('divCaixaNaveia').className =
-      'posCaixaParada animaFlutua';
+    document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
-    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    scrollRotate1(-30);
     console.log('FIM');
   }
 }
 
-// Func Anima PC 2 💻
+// Func Anima PC 2 📱
 function naveiaAnimaPC2() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
-    // var prop = document.getElementById('caixaNaveia');
+    // var prop = document.getElementById('caixaNaveia'); 📱
     // prop.className = 'bg01';
     scrollRotate1(-30);
   } else if (
     window.innerWidth >= 600 &&
     document.documentElement.scrollTop < 1000
   ) {
-    // var prop = document.getElementById('caixaNaveia');
+    // var prop = document.getElementById('caixaNaveia'); 📱
     // prop.className = 'bg01';
     scrollRotate1(-30);
   } else if (
     window.innerWidth >= 600 &&
     document.documentElement.scrollTop < 1900
   ) {
-    // var prop = document.getElementById('caixaNaveia');
+    // var prop = document.getElementById('caixaNaveia'); 📱
     // prop.className = 'bg02';
     // scrollRotate1(-30);
     // } else if (document.documentElement.scrollTop < 2000) {
     //   // var prop = document.getElementById('caixaNaveia');
     //   // prop.className = 'bg03';
-    //   scrollRotate1(-30);
+    //   scrollRotate1(-30); 📱
   } else {
-    document.getElementById('divCaixaNaveia').className =
-      'posCaixaParada animaFlutua';
+    document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     console.log('FIM');
   }
 
