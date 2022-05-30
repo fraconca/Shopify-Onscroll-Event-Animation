@@ -96,24 +96,18 @@ header {
 }
 @media screen and (max-width: 612px) {
   img#caixaNaveia {
-    width: 50%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 414px) {
   img#caixaNaveia {
-    width: 50%;
+    width: 60%;
     background-color: yellowgreen;
   }
 }
-/* @media screen and (max-width: 412px) {
-  img#caixaNaveia {
-    width: 50%;
-    background-color: yellowgreen;
-  }
-} */
 @media screen and (max-width: 360px) {
   img#caixaNaveia {
-    width: 50%;
+    width: 60%;
     background-color: orange;
   }
 }
@@ -139,13 +133,20 @@ div#posDiv {
   margin: auto;
   width: 25%;
 }
+@media screen and (max-width: 612px) {
+  div#posDiv {
+    width: 50%;
+  }
+}
 #blocoSplash {
   height: 720px;
   background-color: bisque;
   margin: auto;
 }
 @media screen and (max-width: 612px) {
-  
+  #blocoSplash {
+    height: 525px;
+  }
 }
 
 /* BLOCO >>> MARQUEE */
@@ -206,6 +207,11 @@ img#imgInst {
     top: 100px;
   }
 }
+@media screen and (max-width: 612px) {
+  .posCaixaFixa {
+    top: 120px;
+  }
+}
 
 /* POSICAO CAIXA FIXA + ROTATE */
 .posCaixaParada {
@@ -218,36 +224,24 @@ img#imgInst {
     position: relative;
     top: 1800px;
   }
-  /* .posCaixaParada > img#caixaNaveia {
-    width: 375px;
-  } */
 }
 @media screen and (max-width: 1680px) {
   .posCaixaParada {
     position: relative;
     top: 1680px;
   }
-  /* .posCaixaParada > img#caixaNaveia {
-    width: 350px;
-  } */
 }
 @media screen and (max-width: 1440px) {
   .posCaixaParada {
     position: relative;
     top: 1600px;
   }
-  /* .posCaixaParada > img#caixaNaveia {
-    width: 300px;
-  } */
 }
 @media screen and (max-width: 1024px) {
   .posCaixaParada {
     position: relative;
     top: 1600px;
   }
-  /* .posCaixaParada > img#caixaNaveia {
-    width: 300px;
-  } */
 }
 
 /* BLOCO ÍCONES */
