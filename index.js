@@ -41,9 +41,9 @@ if (deviceScreenPC1680) {
   );
   console.log('### View Port Width: ' + window.innerWidth + 'px');
   console.log('### View Port Height: ' + window.innerHeight + 'px');
-  console.log('### Função: animaNaveiaPC1');
+  console.log('### Função: animaNaveiaPC2');
   window.onscroll = function () {
-    naveiaAnimaPC1();
+    naveiaAnimaPC2();
     contaScroll();
   };
 }
@@ -76,8 +76,10 @@ if (deviceScreenMobile) {
   };
 }
 
+
 // Rotate
 scrollRotate1(-30);
+
 
 // Func Anima PC 1 💻
 function naveiaAnimaPC1() {
@@ -98,8 +100,8 @@ function naveiaAnimaPC1() {
   }
 }
 
-// Func Anima PC 2 💻
-function naveiaAnimaPC2() {
+// Func Anima PC 3 💻
+function naveiaAnimaPC3() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
     scrollRotate1(-30);
   } else if (
@@ -107,7 +109,7 @@ function naveiaAnimaPC2() {
     document.documentElement.scrollTop < 1000
   ) {
     scrollRotate1(-30);
-  } else if (document.documentElement.scrollTop < 1850) {
+  } else if (document.documentElement.scrollTop < 1600) {
     scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
