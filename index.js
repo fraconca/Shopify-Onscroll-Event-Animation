@@ -50,20 +50,6 @@ function naveiaAnimaPC() {
       'posCaixaParada animaFlutua';
     console.log('FIM');
   }
-
-  if (window.innerWidth <= 599 && document.documentElement.scrollTop < 100) {
-    scrollRotate1(-30);
-  } else if (
-    window.innerWidth <= 599 &&
-    document.documentElement.scrollTop < 1000
-  ) {
-    scrollRotate1(-30);
-  } else if (
-    window.innerWidth <= 599 &&
-    document.documentElement.scrollTop < 1900
-  ) {
-    scrollRotate1(-30);
-  }
 }
 // FUNÇÃO ANIMA 💻
 function naveiaAnima2() {
