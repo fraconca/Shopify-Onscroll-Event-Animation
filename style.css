@@ -84,12 +84,12 @@ header {
 }
 @media screen and (max-width: 1440px) {
   img#caixaNaveia {
-    width: 100%;
+    width: 95%;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   img#caixaNaveia {
-    width: 60%;
+    width: 90%;
   }
 }
 
@@ -160,6 +160,11 @@ img#imgInst {
 @media screen and (max-width: 1440px) {
   .posCaixaFixa {
     top: 130px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .posCaixaFixa {
+    top: 100px;
   }
 }
 
