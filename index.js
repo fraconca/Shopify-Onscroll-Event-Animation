@@ -58,9 +58,9 @@ if (deviceScreenPC1440) {
   );
   console.log('### View Port Width: ' + window.innerWidth + 'px');
   console.log('### View Port Height: ' + window.innerHeight + 'px');
-  console.log('### Função: animaNaveiaPC2');
+  console.log('### Função: animaNaveiaPC3');
   window.onscroll = function () {
-    naveiaAnimaPC2();
+    naveiaAnimaPC3();
     contaScroll();
   };
 }
@@ -76,10 +76,8 @@ if (deviceScreenMobile) {
   };
 }
 
-
 // Rotate
 scrollRotate1(-30);
-
 
 // Func Anima PC 1 💻
 function naveiaAnimaPC1() {
@@ -100,6 +98,25 @@ function naveiaAnimaPC1() {
   }
 }
 
+// Func Anima PC 2 💻
+function naveiaAnimaPC2() {
+  if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
+    scrollRotate1(-30);
+  } else if (
+    window.innerWidth >= 600 &&
+    document.documentElement.scrollTop < 1000
+  ) {
+    scrollRotate1(-30);
+  } else if (document.documentElement.scrollTop < 1680) {
+    scrollRotate1(-30);
+  } else {
+    document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
+    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    scrollRotate1(-30);
+    console.log('FIM');
+  }
+}
+
 // Func Anima PC 3 💻
 function naveiaAnimaPC3() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
@@ -109,7 +126,7 @@ function naveiaAnimaPC3() {
     document.documentElement.scrollTop < 1000
   ) {
     scrollRotate1(-30);
-  } else if (document.documentElement.scrollTop < 1600) {
+  } else if (document.documentElement.scrollTop < 1630) {
     scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
