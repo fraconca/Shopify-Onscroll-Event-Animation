@@ -33,11 +33,11 @@ if (deviceScreenPC1920) {
 if (deviceScreenPC1680) {
   console.log(
     '%cNAVEIA',
-    'color: yellowgreen; background-color: black; font-weight: bold'
+    'color: yellow; background-color: black; font-weight: bold'
   );
   console.log(
     '%c### 🖥️ Desktop Computer (1680)',
-    'color: yellowgreen; background-color: black; font-weight: bold'
+    'color: yellow; background-color: black; font-weight: bold'
   );
   console.log('### View Port Width: ' + window.innerWidth + 'px');
   console.log('### View Port Height: ' + window.innerHeight + 'px');
@@ -48,10 +48,13 @@ if (deviceScreenPC1680) {
   };
 }
 if (deviceScreenPC1440) {
-  console.log('%cNAVEIA', 'color: yellow; font-weight: bold');
+  console.log(
+    '%cNAVEIA',
+    'color: black; background-color: yellowgreen; font-weight: bold'
+  );
   console.log(
     '%c### 💻 Laptop Personal Computer (1440)',
-    'color: yellow; font-weight: bold'
+    'color: yellowgreen; background-color: black; font-weight: bold'
   );
   console.log('### View Port Width: ' + window.innerWidth + 'px');
   console.log('### View Port Height: ' + window.innerHeight + 'px');
