@@ -74,7 +74,7 @@ header {
 /* MEDIA IMG CAIXA NAVEIA */
 @media screen and (max-width: 1900px) {
   img#caixaNaveia {
-    width: 90%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1680px) {
@@ -149,7 +149,7 @@ img#imgInst {
 }
 @media screen and (max-width: 1920px) {
   .posCaixaFixa {
-    top: 200px;
+    top: 120px;
   }
 }
 @media screen and (max-width: 1680px) {
@@ -172,12 +172,12 @@ img#imgInst {
 .posCaixaParada {
   position: relative;
   width: 300px;
-  top: 2000px;
+  top: 1500px;
 }
 @media screen and (max-width: 1920px) {
   .posCaixaParada {
     position: relative;
-    top: 2000px;
+    top: 1950px;
   }
   /* .posCaixaParada > img#caixaNaveia {
     width: 375px;
