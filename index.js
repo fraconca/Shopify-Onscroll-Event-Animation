@@ -2,33 +2,73 @@
 import './style.css';
 
 // Check Viewport Width
-if (window.innerWidth >= 900) {
+if (window.innerWidth >= 1920) {
   var deviceScreenPC1920 = window.innerWidth;
+} else if (window.innerWidth >= 1680) {
+  var deviceScreenPC1680 = window.innerWidth;
+} else if (window.innerWidth >= 1440) {
+  var deviceScreenPC1440 = window.innerWidth;
 } else {
   var deviceScreenMobile = window.innerWidth;
 }
+
+// Check Device Screen Mode
 if (deviceScreenPC1920) {
-  console.log('%cNAVEIA COMPUTER INIT', 'color: yellow; font-weight: bold');
   console.log(
-    '%c### 💻 Laptop / PC (1920)',
-    'color: yellow; font-weight: bold'
+    '%cNAVEIA',
+    'color: limegreen; background-color: black; font-weight: bold'
+  );
+  console.log(
+    '%c### 🖥️ Desktop Computer (1920)',
+    'color: limegreen; background-color: black; font-weight: bold'
   );
   console.log('### View Port Width: ' + window.innerWidth + 'px');
   console.log('### View Port Height: ' + window.innerHeight + 'px');
-  console.log('### Função: animaNaveia1');
+  console.log('### Função: animaNaveiaPC1');
   window.onscroll = function () {
     naveiaAnimaPC1();
     contaScroll();
   };
 }
+if (deviceScreenPC1680) {
+  console.log(
+    '%cNAVEIA',
+    'color: yellowgreen; background-color: black; font-weight: bold'
+  );
+  console.log(
+    '%c### 🖥️ Desktop Computer (1680)',
+    'color: yellowgreen; background-color: black; font-weight: bold'
+  );
+  console.log('### View Port Width: ' + window.innerWidth + 'px');
+  console.log('### View Port Height: ' + window.innerHeight + 'px');
+  console.log('### Função: animaNaveiaPC1');
+  window.onscroll = function () {
+    naveiaAnimaPC1();
+    contaScroll();
+  };
+}
+if (deviceScreenPC1440) {
+  console.log('%cNAVEIA', 'color: yellow; font-weight: bold');
+  console.log(
+    '%c### 💻 Laptop Personal Computer (1440)',
+    'color: yellow; font-weight: bold'
+  );
+  console.log('### View Port Width: ' + window.innerWidth + 'px');
+  console.log('### View Port Height: ' + window.innerHeight + 'px');
+  console.log('### Função: animaNaveiaPC2');
+  window.onscroll = function () {
+    naveiaAnimaPC2();
+    contaScroll();
+  };
+}
 if (deviceScreenMobile) {
-  console.log('%cNAVEIA MOBILE INIT', 'color: yellowgreen; font-weight: bold');
+  console.log('%cNAVEIA', 'color: yellowgreen; font-weight: bold');
   console.log('%c### 📱 Mobile', 'color: yellowgreen; font-weight: bold');
   console.log('### View Port Width: ' + window.innerWidth + 'px');
   console.log('### View Port Height: ' + window.innerHeight + 'px');
-  console.log('### Função: animaNaveia2');
+  console.log('### Função: animaNaveiaPC2');
   window.onscroll = function () {
-    naveiaAnimaPC2();
+    naveiaAnimaPC3();
     contaScroll();
   };
 }
@@ -55,47 +95,22 @@ function naveiaAnimaPC1() {
   }
 }
 
-// Func Anima PC 2 📱
+// Func Anima PC 2 💻
 function naveiaAnimaPC2() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
-    // var prop = document.getElementById('caixaNaveia'); 📱
-    // prop.className = 'bg01';
     scrollRotate1(-30);
   } else if (
     window.innerWidth >= 600 &&
     document.documentElement.scrollTop < 1000
   ) {
-    // var prop = document.getElementById('caixaNaveia'); 📱
-    // prop.className = 'bg01';
     scrollRotate1(-30);
-  } else if (
-    window.innerWidth >= 600 &&
-    document.documentElement.scrollTop < 1900
-  ) {
-    // var prop = document.getElementById('caixaNaveia'); 📱
-    // prop.className = 'bg02';
-    // scrollRotate1(-30);
-    // } else if (document.documentElement.scrollTop < 2000) {
-    //   // var prop = document.getElementById('caixaNaveia');
-    //   // prop.className = 'bg03';
-    //   scrollRotate1(-30); 📱
+  } else if (document.documentElement.scrollTop < 1850) {
+    scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
+    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    scrollRotate1(-30);
     console.log('FIM');
-  }
-
-  if (window.innerWidth <= 599 && document.documentElement.scrollTop < 100) {
-    scrollRotate1(-30);
-  } else if (
-    window.innerWidth <= 599 &&
-    document.documentElement.scrollTop < 1000
-  ) {
-    scrollRotate1(-30);
-  } else if (
-    window.innerWidth <= 599 &&
-    document.documentElement.scrollTop < 1900
-  ) {
-    scrollRotate1(-30);
   }
 }
 

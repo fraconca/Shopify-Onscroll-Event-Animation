@@ -183,28 +183,28 @@ img#imgInst {
     width: 375px;
   } */
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1680px) {
   .posCaixaParada {
     position: relative;
-    top: 1750px;
+    top: 1800px;
   }
   /* .posCaixaParada > img#caixaNaveia {
     width: 350px;
   } */
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1440px) {
   .posCaixaParada {
     position: relative;
-    top: 1750px;
+    top: 1600px;
   }
   /* .posCaixaParada > img#caixaNaveia {
     width: 300px;
   } */
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .posCaixaParada {
     position: relative;
-    top: 1750px;
+    top: 1600px;
   }
   /* .posCaixaParada > img#caixaNaveia {
     width: 300px;
