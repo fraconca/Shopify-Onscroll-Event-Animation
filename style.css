@@ -147,7 +147,7 @@ img#imgInst {
   top: 120px;
   width: 300px;
 }
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1920px) {
   .posCaixaFixa {
     top: 200px;
   }
@@ -155,6 +155,11 @@ img#imgInst {
 @media screen and (max-width: 1680px) {
   .posCaixaFixa {
     top: 170px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .posCaixaFixa {
+    top: 150px;
   }
 }
 
