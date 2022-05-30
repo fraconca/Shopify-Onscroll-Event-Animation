@@ -71,7 +71,7 @@ if (deviceScreenMobile) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC2');
   window.onscroll = function () {
-    naveiaAnimaPC3();
+    naveiaAnimaMob1();
     contaScroll();
   };
 }
@@ -94,7 +94,7 @@ function naveiaAnimaPC1() {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
     scrollRotate1(-30);
-    console.log('FIM');
+    console.log('ENTRA EM ELSE #FIM');
   }
 }
 
@@ -113,7 +113,7 @@ function naveiaAnimaPC2() {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
     scrollRotate1(-30);
-    console.log('FIM');
+    console.log('ENTRA EM ELSE #FIM');
   }
 }
 
@@ -132,7 +132,26 @@ function naveiaAnimaPC3() {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
     scrollRotate1(-30);
-    console.log('FIM');
+    console.log('ENTRA EM ELSE #FIM');
+  }
+}
+
+// Func Anima Mobile 1 📱
+function naveiaAnimaMob1() {
+  if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
+    scrollRotate1(-30);
+  } else if (
+    window.innerWidth >= 600 &&
+    document.documentElement.scrollTop < 1000
+  ) {
+    scrollRotate1(-30);
+  } else if (document.documentElement.scrollTop < 1630) {
+    scrollRotate1(-30);
+  } else {
+    document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
+    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    scrollRotate1(-30);
+    console.log('ENTRA EM ELSE #FIM');
   }
 }
 
