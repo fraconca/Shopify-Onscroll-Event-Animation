@@ -3,18 +3,21 @@ import './style.css';
 
 // Check Viewport Width
 if (window.innerWidth >= 900) {
-  var deviceScreenPC = window.innerWidth;
+  var deviceScreenPC1920 = window.innerWidth;
 } else {
   var deviceScreenMobile = window.innerWidth;
 }
-if (deviceScreenPC) {
+if (deviceScreenPC1920) {
   console.log('%cNAVEIA COMPUTER INIT', 'color: yellow; font-weight: bold');
-  console.log('%c### 💻 Laptop / PC', 'color: yellow; font-weight: bold');
+  console.log(
+    '%c### 💻 Laptop / PC (1920)',
+    'color: yellow; font-weight: bold'
+  );
   console.log('### View Port Width: ' + window.innerWidth + 'px');
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveia1');
   window.onscroll = function () {
-    naveiaAnimaPC();
+    naveiaAnimaPC1();
     contaScroll();
   };
 }
@@ -25,7 +28,7 @@ if (deviceScreenMobile) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveia2');
   window.onscroll = function () {
-    naveiaAnima2();
+    naveiaAnimaPC2();
     contaScroll();
   };
 }
@@ -33,8 +36,8 @@ if (deviceScreenMobile) {
 // Rotate
 scrollRotate1(-30);
 
-// Func Anima PC 1
-function naveiaAnimaPC() {
+// Func Anima PC 1 💻
+function naveiaAnimaPC1() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
     scrollRotate1(-30);
   } else if (
@@ -43,17 +46,18 @@ function naveiaAnimaPC() {
   ) {
     scrollRotate1(-30);
   } else if (document.documentElement.scrollTop < 2000) {
-
-      scrollRotate1(-30);
+    scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className =
       'posCaixaParada animaFlutua';
+    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
     console.log('FIM');
   }
 }
 
-// FUNÇÃO ANIMA 💻
-function naveiaAnima2() {
+// Func Anima PC 2 💻
+function naveiaAnimaPC2() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
     // var prop = document.getElementById('caixaNaveia');
     // prop.className = 'bg01';

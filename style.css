@@ -77,14 +77,14 @@ header {
     width: 90%;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1680px) {
   img#caixaNaveia {
-    width: 80%;
+    width: 100%;
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1440px) {
   img#caixaNaveia {
-    width: 70%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -114,7 +114,7 @@ div#posDiv {
   margin: auto;
 }
 
-/* BLOCO MARQUEE */
+/* BLOCO >>> MARQUEE */
 #blocoMarquee {
   height: max-content;
   width: 100%;
@@ -123,28 +123,48 @@ img#imgMarquee {
   width: 100%;
 }
 
-/* BLOCO INSTITUCIONAL */
+/* BLOCO >>>>>>>>>>>>>>> INSTITUCIONAL */
 img#imgInst {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
+@media screen and (max-width: 1920px) {
+  img#imgInst {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  img#imgInst {
+    width: 100%;
+  }
+}
 
 /* POSICAO CAIXA FIXA + SCROLL + FLUTUA */
 .posCaixaFixa {
   position: fixed;
-  top: 100px;
+  top: 120px;
   width: 300px;
+}
+@media screen and (max-width: 1900px) {
+  .posCaixaFixa {
+    top: 200px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .posCaixaFixa {
+    top: 170px;
+  }
 }
 
 /* POSICAO CAIXA FIXA + ROTATE */
 .posCaixaParada {
   position: relative;
   width: 300px;
-  top: 1900px;
+  top: 2000px;
 }
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1920px) {
   .posCaixaParada {
     position: relative;
     top: 2000px;
@@ -183,14 +203,17 @@ img#imgInst {
 
 /* BLOCO ÍCONES */
 section#blocoIcones {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 div#gridIco {
   display: flex;
   text-align: center;
+}
+.gridIcoReverse {
+  flex-direction: row-reverse;
 }
 div#posDireita,
 div#posEsquerda {
