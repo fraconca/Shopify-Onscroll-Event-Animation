@@ -51,6 +51,7 @@ function naveiaAnimaPC() {
     console.log('FIM');
   }
 }
+
 // FUNÇÃO ANIMA 💻
 function naveiaAnima2() {
   if (window.innerWidth >= 600 && document.documentElement.scrollTop < 100) {
