@@ -235,7 +235,7 @@ section#blocoMarqueeDeleiteVegetal {
 }
 .m-scroll__title > div {
   display: flex;
-  animation: scrollText 300s infinite linear;
+  animation: scrollText 360s infinite linear;
 }
 @keyframes scrollText {
   from {
@@ -247,7 +247,7 @@ section#blocoMarqueeDeleiteVegetal {
 }
 .m-scroll__title__INV > div {
   display: flex;
-  animation: scrollTextINV 150s infinite linear;
+  animation: scrollTextINV 210s infinite linear;
   animation-direction: reverse;
 }
 @keyframes scrollTextINV {
