@@ -126,6 +126,10 @@ div#posDiv {
   position: fixed;
   top: 120px;
   width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: all 1s ease;
 }
 @media screen and (max-width: 1920px) {
   .posCaixaFixa {
@@ -152,12 +156,9 @@ div#posDiv {
     top: 100px;
   }
 }
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 360px) {
   .posCaixaFixa {
-    top: 120px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    top: 170px;
   }
 }
 
