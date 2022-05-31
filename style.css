@@ -188,6 +188,10 @@ section#blocoMarqueeDeleiteVegetal {
   display: flex;
   flex-direction: column;
 }
+.marqueeA {
+}
+.marqueeB {
+}
 .rotacionaMarq {
   transform: rotate(-2deg);
 }
