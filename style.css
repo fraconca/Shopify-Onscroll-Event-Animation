@@ -153,7 +153,7 @@ div#posDiv {
   }
 }
 
-/* POSICAO CAIXA RELATIVA + ROTATE */
+/* POSICAO CAIXA >>>>> RELATIVA + ROTATE */
 .posCaixaParada {
   position: relative;
   width: 300px;
@@ -184,7 +184,7 @@ div#posDiv {
   }
 }
 
-/* MEDIA IMG CAIXA NAVEIA */
+/* MEDIA IMG >>>>>>>>>>>>> CAIXA NAVEIA */
 div#divCaixaNaveia {
   z-index: 1;
 }
@@ -233,7 +233,7 @@ div#divCaixaNaveia {
   }
 }
 
-/* ANIMA FLUTUAR */
+/* ANIMA >>>>>>>>>>>>>>>>>>>>>>>>>>>>> FLUTUAR */
 .animaFlutua {
   animation: flutuando 3s ease-in-out infinite;
 }
@@ -242,8 +242,6 @@ div#divCaixaNaveia {
     transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
   }
 }
-
-
 
 /* BLOCO >>>>>>>>>>>>>>>>>>>>>> MARQUEE */
 /* #blocoMarquee {
@@ -377,7 +375,8 @@ section#blocoMarqueeDeleiteVegetal {
 section#blocoIcones {
   max-width: 1200px;
   margin: auto;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 div#gridIco {
