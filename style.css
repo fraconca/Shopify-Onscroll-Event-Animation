@@ -175,7 +175,7 @@ div#posDiv {
   }
 }
 
-/* BLOCO >>> MARQUEE */
+/* BLOCO >>>>>>>>>>>>>>>>>>>>>> MARQUEE */
 /* #blocoMarquee {
   height: max-content;
   width: 100%;
@@ -185,6 +185,8 @@ img#imgMarquee {
 } */
 section#blocoMarqueeDeleiteVegetal {
   height: 350px;
+  display: flex;
+  flex-direction: column;
 }
 .rotacionaMarq {
   transform: rotate(-2deg);
@@ -384,8 +386,8 @@ img#imgInst {
 section#blocoIcones {
   max-width: 1200px;
   margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 div#gridIco {
   display: flex;
