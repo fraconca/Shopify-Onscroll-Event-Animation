@@ -103,9 +103,11 @@ div#posDiv {
   flex-direction: column;
   /* width: 25%; */
 }
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 360px) {
   div#posDiv {
-    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
 #blocoSplash {
@@ -113,7 +115,7 @@ div#posDiv {
   background-color: bisque;
   /* margin: auto; */
 }
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 360px) {
   #blocoSplash {
     height: 525px;
   }
@@ -153,6 +155,14 @@ div#posDiv {
 @media screen and (max-width: 612px) {
   .posCaixaFixa {
     top: 120px;
+  }
+}
+@media screen and (max-width: 612px) {
+  .posCaixaFixa {
+    top: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
@@ -385,6 +395,12 @@ section#blocoIcones {
 @media screen and (max-width: 1920px) {
   section#blocoIcones {
     max-width: 1300px;
+  }
+}
+@media screen and (max-width: 360px) {
+  section#blocoIcones {
+    z-index: 1;
+    position: relative;
   }
 }
 div#gridIco {
