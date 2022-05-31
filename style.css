@@ -150,13 +150,129 @@ div#posDiv {
 }
 
 /* BLOCO >>> MARQUEE */
-#blocoMarquee {
+/* #blocoMarquee {
   height: max-content;
   width: 100%;
 }
 img#imgMarquee {
   width: 100%;
+} */
+.m-scroll {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 45px;
+  margin: auto;
+  overflow: hidden;
+  z-index: 1;
 }
+.m-scroll__INV {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 45px;
+  margin: auto;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.m-scroll__title {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  transform: scale(2);
+  transition: all 1s infinite ease;
+}
+.m-scroll__title__INV {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  transform: scale(2);
+  transition: all 1s infinite ease;
+}
+
+.m-scroll__title > div {
+  display: flex;
+  animation: scrollText 300s infinite linear;
+}
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.m-scroll__title__INV > div {
+  display: flex;
+  animation: scrollTextINV 150s infinite linear;
+  animation-direction: reverse;
+}
+@keyframes scrollTextINV {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.rotacionaMarq {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transform: rotate(-2deg);
+}
+
+.h1_marquee {
+  margin: 0;
+  font-size: 32px;
+  transition: all 1s ease;
+}
+.h1_marquee__INV {
+  margin: 0;
+  font-size: 32px;
+  transition: all 1s ease;
+}
+
+.marqPos {
+  color: black;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.marqPos:hover {
+  color: white;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.marqNeg {
+  color: white;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.marqNeg:hover {
+  color: black;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
 
 /* BLOCO >>>>>>>>>>>>>>> INSTITUCIONAL */
 img#imgInst {
