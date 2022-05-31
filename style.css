@@ -261,11 +261,13 @@ section#blocoMarqueeDeleiteVegetal {
 .h1_marquee {
   margin: 0;
   font-size: 60px;
+  letter-spacing: 2px;
   transition: all 1s ease;
 }
 .h1_marquee__INV {
   margin: 0;
   font-size: 60px;
+  letter-spacing: 2px;
   transition: all 1s ease;
 }
 
@@ -277,6 +279,7 @@ section#blocoMarqueeDeleiteVegetal {
 .marqPos:hover {
   color: white;
   -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0.01px;
   -webkit-text-stroke-color: black;
 }
 .marqNeg {
