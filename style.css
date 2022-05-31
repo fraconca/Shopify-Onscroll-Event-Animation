@@ -382,6 +382,11 @@ section#blocoIcones {
   margin-top: 150px;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 1920px) {
+  section#blocoIcones {
+    max-width: 1300px;
+  }
+}
 div#gridIco {
   display: flex;
   text-align: center;
