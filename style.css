@@ -184,7 +184,8 @@ img#imgMarquee {
   width: 100%;
 } */
 section#blocoMarqueeDeleiteVegetal {
-  height: 350px;
+  /* height: 350px; */
+  height: 200px;
   display: flex;
   flex-direction: column;
 }
