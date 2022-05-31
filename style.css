@@ -262,6 +262,7 @@ section#blocoMarqueeDeleiteVegetal {
   margin: 0;
   font-size: 60px;
   letter-spacing: 2px;
+  font-kerning: none;
   transition: all 1s ease;
 }
 .h1_marquee__INV {
