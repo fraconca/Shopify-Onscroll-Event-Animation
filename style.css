@@ -391,6 +391,12 @@ div#gridIco {
   display: flex;
   text-align: center;
 }
+@media screen and (max-width: 360px) {
+  div#gridIco {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .gridIcoReverse {
   flex-direction: row-reverse;
 }
@@ -404,6 +410,14 @@ div#posEsquerda {
 div#posDireita {
   text-align: right;
 }
+@media screen and (max-width: 360px) {
+  div#posDireita,
+  div#posEsquerda {
+    width: 100%;
+    text-align: inherit;
+  }
+}
+
 /* ÍCONES */
 img#icoZeroLac,
 img#icoZeroAc,
