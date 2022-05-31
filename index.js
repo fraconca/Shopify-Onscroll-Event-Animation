@@ -92,7 +92,7 @@ function naveiaAnimaPC1() {
     scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
-    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    document.getElementById('gridIco').className = 'gridIcoReverse';
     scrollRotate1(-30);
     console.log('ENTRA EM ELSE #FIM');
   }
@@ -111,7 +111,7 @@ function naveiaAnimaPC2() {
     scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
-    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    document.getElementById('gridIco').className = 'gridIcoReverse';
     scrollRotate1(-30);
     console.log('ENTRA EM ELSE #FIM');
   }
@@ -130,7 +130,7 @@ function naveiaAnimaPC3() {
     scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
-    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    document.getElementById('gridIco').className = 'gridIcoReverse';
     scrollRotate1(-30);
     console.log('ENTRA EM ELSE #FIM');
   }
@@ -149,7 +149,7 @@ function naveiaAnimaMob1() {
     scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
-    document.getElementById('gridIco').className = 'gridIcoReverse animaFlutua';
+    document.getElementById('gridIco').className = 'gridIcoReverse';
     scrollRotate1(-30);
     console.log('ENTRA EM ELSE #FIM');
   }
