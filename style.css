@@ -5,6 +5,29 @@ body {
   margin: auto;
   background-color: #fbf7f6;
 }
+@font-face {
+  font-family: trimPosterNaveia;
+  src: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/TrimPosterCompressed.otf);
+}
+@font-face {
+  font-family: ttNormsProRegular;
+  src: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/TT_Norms_Pro_Regular.otf);
+}
+@font-face {
+  font-family: ttNormsProBold;
+  src: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/TT_Norms_Pro_Bold.otf);
+}
+.h_naveia {
+  font-family: trimPosterNaveia !important;
+  color: black;
+}
+.ttNormsProRegular {
+  font-family: ttNormsProRegular !important;
+}
+.ttNormsProBold {
+  font-family: ttNormsProBold !important;
+}
+
 #reguaTesteTela {
   height: 5000px;
 }
@@ -72,16 +95,17 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 
 /* MEDIA IMG CAIXA NAVEIA */
+div#divCaixaNaveia {
+  z-index: 1;
+}
 @media screen and (max-width: 1900px) {
   img#caixaNaveia {
     width: 100%;
-    background-color: gray;
   }
 }
 @media screen and (max-width: 1680px) {
   img#caixaNaveia {
     width: 100%;
-    background-color: green;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -97,6 +121,7 @@ header {
 @media screen and (max-width: 612px) {
   img#caixaNaveia {
     width: 80%;
+    background-color: purple;
   }
 }
 @media screen and (max-width: 414px) {
