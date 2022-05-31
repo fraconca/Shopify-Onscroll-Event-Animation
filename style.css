@@ -97,18 +97,21 @@ header {
 
 /* POSIÇÃO GERAL BLOCOS */
 div#posDiv {
-  margin: auto;
-  width: 25%;
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* width: 25%; */
 }
 @media screen and (max-width: 612px) {
   div#posDiv {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 #blocoSplash {
   height: 720px;
   background-color: bisque;
-  margin: auto;
+  /* margin: auto; */
 }
 @media screen and (max-width: 612px) {
   #blocoSplash {
