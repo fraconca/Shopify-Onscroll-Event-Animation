@@ -95,6 +95,95 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 
+/* POSIÇÃO GERAL BLOCOS */
+div#posDiv {
+  margin: auto;
+  width: 25%;
+}
+@media screen and (max-width: 612px) {
+  div#posDiv {
+    width: 50%;
+  }
+}
+#blocoSplash {
+  height: 720px;
+  background-color: bisque;
+  margin: auto;
+}
+@media screen and (max-width: 612px) {
+  #blocoSplash {
+    height: 525px;
+  }
+}
+
+/* POSICAO CAIXA FIXA + SCROLL + FLUTUA */
+.posCaixaFixa {
+  position: fixed;
+  top: 120px;
+  width: 300px;
+}
+@media screen and (max-width: 1920px) {
+  .posCaixaFixa {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .posCaixaFixa {
+    top: 170px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .posCaixaFixa {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .posCaixaFixa {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .posCaixaFixa {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 612px) {
+  .posCaixaFixa {
+    top: 120px;
+  }
+}
+
+/* POSICAO CAIXA RELATIVA + ROTATE */
+.posCaixaParada {
+  position: relative;
+  width: 300px;
+  top: 1500px;
+}
+@media screen and (max-width: 1920px) {
+  .posCaixaParada {
+    position: relative;
+    top: 1800px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .posCaixaParada {
+    position: relative;
+    top: 1680px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .posCaixaParada {
+    position: relative;
+    top: 1600px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .posCaixaParada {
+    position: relative;
+    top: 1600px;
+  }
+}
+
 /* MEDIA IMG CAIXA NAVEIA */
 div#divCaixaNaveia {
   z-index: 1;
@@ -154,26 +243,7 @@ div#divCaixaNaveia {
   }
 }
 
-/* POSIÇÃO GERAL BLOCOS */
-div#posDiv {
-  margin: auto;
-  width: 25%;
-}
-@media screen and (max-width: 612px) {
-  div#posDiv {
-    width: 50%;
-  }
-}
-#blocoSplash {
-  height: 720px;
-  background-color: bisque;
-  margin: auto;
-}
-@media screen and (max-width: 612px) {
-  #blocoSplash {
-    height: 525px;
-  }
-}
+
 
 /* BLOCO >>>>>>>>>>>>>>>>>>>>>> MARQUEE */
 /* #blocoMarquee {
@@ -303,93 +373,7 @@ section#blocoMarqueeDeleiteVegetal {
   -webkit-text-stroke-color: black;
 }
 
-/* BLOCO >>>>>>>>>>>>>>> INSTITUCIONAL */
-img#imgInst {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-@media screen and (max-width: 1920px) {
-  img#imgInst {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1440px) {
-  img#imgInst {
-    width: 100%;
-  }
-}
-
-/* POSICAO CAIXA FIXA + SCROLL + FLUTUA */
-.posCaixaFixa {
-  position: fixed;
-  top: 120px;
-  width: 300px;
-}
-@media screen and (max-width: 1920px) {
-  .posCaixaFixa {
-    top: 120px;
-  }
-}
-@media screen and (max-width: 1680px) {
-  .posCaixaFixa {
-    top: 170px;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .posCaixaFixa {
-    top: 120px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .posCaixaFixa {
-    top: 100px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .posCaixaFixa {
-    top: 100px;
-  }
-}
-@media screen and (max-width: 612px) {
-  .posCaixaFixa {
-    top: 120px;
-  }
-}
-
-/* POSICAO CAIXA FIXA + ROTATE */
-.posCaixaParada {
-  position: relative;
-  width: 300px;
-  top: 1500px;
-}
-@media screen and (max-width: 1920px) {
-  .posCaixaParada {
-    position: relative;
-    top: 1800px;
-  }
-}
-@media screen and (max-width: 1680px) {
-  .posCaixaParada {
-    position: relative;
-    top: 1680px;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .posCaixaParada {
-    position: relative;
-    top: 1600px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .posCaixaParada {
-    position: relative;
-    top: 1600px;
-  }
-}
-
-/* BLOCO ÍCONES */
+/* BLOCO >>>>>>>>>>>>>>>>>>>>>>> ÍCONES */
 section#blocoIcones {
   max-width: 1200px;
   margin: auto;
@@ -437,5 +421,23 @@ img#icoOmega3 {
   section#blocoIcones {
     margin-top: 100px;
     margin-bottom: 100px;
+  }
+}
+
+/* BLOCO >>>>>>>>>>>>>>> INSTITUCIONAL */
+img#imgInst {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+@media screen and (max-width: 1920px) {
+  img#imgInst {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  img#imgInst {
+    width: 100%;
   }
 }
