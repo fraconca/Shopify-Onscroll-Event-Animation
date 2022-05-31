@@ -157,6 +157,12 @@ div#posDiv {
 img#imgMarquee {
   width: 100%;
 } */
+section#blocoMarqueeDeleiteVegetal {
+  height: 350px;
+}
+.rotacionaMarq {
+  transform: rotate(-2deg);
+}
 .m-scroll {
   display: flex;
   position: relative;
@@ -164,7 +170,7 @@ img#imgMarquee {
   height: 45px;
   margin: auto;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
 }
 .m-scroll__INV {
   display: flex;
@@ -173,7 +179,7 @@ img#imgMarquee {
   height: 45px;
   margin: auto;
   overflow: hidden;
-  z-index: 2;
+  z-index: 0;
 }
 
 .m-scroll__title {
@@ -202,7 +208,6 @@ img#imgMarquee {
   transform: scale(2);
   transition: all 1s infinite ease;
 }
-
 .m-scroll__title > div {
   display: flex;
   animation: scrollText 300s infinite linear;
@@ -215,7 +220,6 @@ img#imgMarquee {
     transform: translateX(-50%);
   }
 }
-
 .m-scroll__title__INV > div {
   display: flex;
   animation: scrollTextINV 150s infinite linear;
@@ -229,13 +233,6 @@ img#imgMarquee {
     transform: translateX(0%);
   }
 }
-
-.rotacionaMarq {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  transform: rotate(-2deg);
-}
-
 .h1_marquee {
   margin: 0;
   font-size: 32px;
@@ -271,8 +268,6 @@ img#imgMarquee {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
-
-
 
 /* BLOCO >>>>>>>>>>>>>>> INSTITUCIONAL */
 img#imgInst {
