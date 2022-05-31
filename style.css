@@ -272,13 +272,11 @@ section#blocoMarqueeDeleiteVegetal {
 .marqPos {
   color: black;
   -webkit-text-fill-color: black;
-  -webkit-text-stroke-width: 0.01px;
   -webkit-text-stroke-color: black;
 }
 .marqPos:hover {
   color: white;
   -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 0.01px;
   -webkit-text-stroke-color: black;
 }
 .marqNeg {
@@ -290,7 +288,6 @@ section#blocoMarqueeDeleiteVegetal {
 .marqNeg:hover {
   color: black;
   -webkit-text-fill-color: black;
-  -webkit-text-stroke-width: 0.01px;
   -webkit-text-stroke-color: black;
 }
 
