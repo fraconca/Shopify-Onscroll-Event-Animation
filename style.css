@@ -125,10 +125,42 @@ div#posDiv {
     height: 525px;
   }
 }
+img.elAveia01 {
+  position: sticky;
+  left: 580px;
+  top: 310px;
+  width: 100px;
+}
+img.elAveia01 {
+  animation-name: animaAveia;
+  animation-duration: 4s;
+}
+@keyframes animaAveia {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 10px;
+    top: 0px;
+  }
+  50% {
+    left: 20px;
+    top: 20px;
+  }
+  75% {
+    left: 0px;
+    top: 20px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
 div#splashEstatico {
   height: -webkit-fill-available;
-  background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_01.png);
+  background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_02.png);
   background-position: center;
   animation-name: bgSplash;
   animation-duration: 4s;
