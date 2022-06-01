@@ -132,24 +132,24 @@ div#posDiv {
 img.elAveia {
   position: absolute;
 }
-  #elAveia01 {
-    left: 32%;
-    top: 33%;
-    width: 5%;
-    transform: rotate(-30deg);
-    animation-delay: 1s;
-    animation-duration: 3s;
-    animation-name: elAveiaEsquerda;
-  }
-  #elAveia02 {
-    left: 60%;
-    top: 27%;
-    width: 5%;
-    transform: rotate(-30deg);
-    animation-delay: 1s;
-    animation-duration: 3s;
-    animation-name: elAveiaDireita;
-  }
+#elAveia01 {
+  left: 32%;
+  top: 33%;
+  width: 5%;
+  transform: rotate(-30deg);
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-name: elAveiaEsquerda;
+}
+#elAveia02 {
+  left: 60%;
+  top: 27%;
+  width: 5%;
+  transform: rotate(-30deg);
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-name: elAveiaDireita;
+}
 @media screen and (max-width: 1920px) {
   #elAveia01 {
     width: 5%;
@@ -161,17 +161,17 @@ img.elAveia {
   }
   @keyframes elAveiaEsquerda {
     0% {
-      left:50%;
+      left: 50%;
       top: 50%;
     }
     100% {
-      left:32%;
+      left: 32%;
       top: 33%;
     }
   }
   @keyframes elAveiaDireita {
     0% {
-      left:50%;
+      left: 50%;
       top: 50%;
     }
     100% {
@@ -219,24 +219,22 @@ img#elAveia03 {
 div#splashEstatico {
   height: -webkit-fill-available;
   background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_02.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-position: center;
   animation-name: bgSplash;
-  animation-duration: 4s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  /* animation-timing-function: ease; */
+  /* animation-iteration-count: infinite; */
 }
 @keyframes bgSplash {
   0% {
     background-position: 50%;
-  }
-  25% {
-    background-position: 51%;
-  }
-  50% {
-    background-position: 51%;
+    background-size: 50%;
   }
   100% {
-    background-position: 50%;
+    width: 100%;
+    background-size: 100%;
   }
 }
 div#playerVideo {
