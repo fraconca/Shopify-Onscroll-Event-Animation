@@ -130,7 +130,7 @@ div#posDiv {
 
 /* ANIMAÇÃO >>>>>>>>>>>>>>>>>>>>> GRÃO DE AVEIA */
 img.elAveia01 {
-  position: sticky;
+  position: absolute;
   width: 100px;
 }
 img.elAveia01 {
