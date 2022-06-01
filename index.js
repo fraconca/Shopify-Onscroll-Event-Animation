@@ -1,6 +1,8 @@
 // Import stylesheets
 import './style.css';
 
+videoOff();
+
 // Check Viewport Width
 if (window.innerWidth >= 1920) {
   var deviceScreenPC1920 = window.innerWidth;
@@ -26,7 +28,6 @@ if (deviceScreenPC1920) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC1');
   window.onscroll = function () {
-    videoOff();
     naveiaAnimaPC1();
     contaScroll();
   };
@@ -44,7 +45,6 @@ if (deviceScreenPC1680) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC2');
   window.onscroll = function () {
-    videoOff();
     naveiaAnimaPC2();
     contaScroll();
   };
@@ -62,7 +62,6 @@ if (deviceScreenPC1440) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC3');
   window.onscroll = function () {
-    videoOff();
     naveiaAnimaPC3();
     contaScroll();
   };
@@ -74,7 +73,6 @@ if (deviceScreenMobile) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC2');
   window.onscroll = function () {
-    videoOff();
     naveiaAnimaMob1();
     contaScroll();
   };
@@ -97,6 +95,8 @@ function naveiaAnimaPC1() {
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse';
+    splashOff();
+    videoOn();
     scrollRotate1(-30);
     console.log('ENTRA EM ELSE #FIM');
   }
@@ -116,6 +116,8 @@ function naveiaAnimaPC2() {
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse';
+    splashOff();
+    videoOn();
     scrollRotate1(-30);
     console.log('ENTRA EM ELSE #FIM');
   }
@@ -135,6 +137,8 @@ function naveiaAnimaPC3() {
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse';
+    splashOff();
+    videoOn();
     scrollRotate1(-30);
     console.log('ENTRA EM ELSE #FIM');
   }
@@ -193,17 +197,17 @@ function contaScroll() {
 
 // FUNÇÃO DESABILITA VIDEO
 function videoOff() {
-  var videoOff = document.getElementById('video-OFF');
-  videoOff.className = 'displayNone';
-  console.log('VIDEO OFF');
+  var videoOn = document.getElementById('videoNaveia');
+  videoOn.className = 'displayNone';
 }
 function videoOn() {
-  var videoOff = document.getElementById('video-OFF');
+  var videoOff = document.getElementById('videoNaveia');
+  videoOff.className = 'displayContents';
+  var videoOff = document.getElementById('splashEstatico');
   videoOff.className = 'displayNone';
-  console.log('VIDEO ON');
 }
 
-// FUNÇÃO DESABILITA SPLASH 
-function splashOff(){
+// FUNÇÃO DESABILITA SPLASH
+function splashOff() {
   console.log('SPLASH OFF');
 }

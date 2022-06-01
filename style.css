@@ -97,6 +97,9 @@ header {
 .displayNone {
   display: none;
 }
+.displayContents {
+  display: contents;
+}
 /* POSIÇÃO GERAL BLOCOS */
 div#posDiv {
   /* margin: auto; */
