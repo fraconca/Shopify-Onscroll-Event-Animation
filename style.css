@@ -126,7 +126,7 @@ div#posDiv {
   }
 }
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
-div#video-OFF {
+div#splashEstatico {
   background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_01.png);
   background-position: center;
   height: -webkit-fill-available;
@@ -176,17 +176,20 @@ div#playerVideo {
 }
 @media screen and (max-width: 1920px) {
   .posCaixaFixa {
-    top: 120px;
+    /* top: 120px; */
+    top: 160px;
   }
 }
 @media screen and (max-width: 1680px) {
   .posCaixaFixa {
-    top: 170px;
+    /* top: 170px; */
+    top: 190px;
   }
 }
 @media screen and (max-width: 1440px) {
   .posCaixaFixa {
-    top: 120px;
+    /* top: 120px; */
+    top: 140px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -214,7 +217,8 @@ div#playerVideo {
 @media screen and (max-width: 1920px) {
   .posCaixaParada {
     position: relative;
-    top: 1800px;
+    /* top: 1800px; */
+    top: 1720px;
   }
 }
 @media screen and (max-width: 1680px) {

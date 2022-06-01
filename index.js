@@ -90,7 +90,7 @@ function naveiaAnimaPC1() {
     document.documentElement.scrollTop < 1000
   ) {
     scrollRotate1(-30);
-  } else if (document.documentElement.scrollTop < 1850) {
+  } else if (document.documentElement.scrollTop < 1720) {
     scrollRotate1(-30);
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
