@@ -129,41 +129,37 @@ div#posDiv {
 }
 
 /* ANIMAÇÃO >>>>>>>>>>>>>>>>>>>>> GRÃO DE AVEIA */
-img.elAveia01 {
+img.elAveia {
   position: absolute;
-}
-img.elAveia01 {
-  animation-name: animaAveia;
-  animation-duration: 10s;
-  /* animation-timing-function: linear; */
   animation-iteration-count: infinite;
+  animation-name: animaAveia01;
+  animation-duration: 10s;
 }
-@keyframes animaAveia {
+#elAveia01{
+  left: 580px;
+  top: 310px;
+  /* animation-timing-function: linear; */
+}
+@keyframes animaAveia01 {
   0% {
-    left: 580px;
-    top: 310px;
     width: 100px;
   }
   25% {
-    left: 580px;
-    top: 310px;
     width: 105px;
   }
   50% {
-    left: 580px;
-    top: 310px;
     width: 105px;
   }
   75% {
-    left: 580px;
-    top: 310px;
     width: 110px;
   }
   100% {
-    left: 580px;
-    top: 310px;
     width: 105px;
   }
+}
+
+#elAveia02{
+
 }
 
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
