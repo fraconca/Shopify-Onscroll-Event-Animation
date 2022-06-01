@@ -401,15 +401,6 @@ div#divCaixaNaveia {
 }
 
 /* ANIMA >>>>>>>>>>>>>>>>>>>>>>>>>>>>> FLUTUAR */
-.animaEntradaFlutua {
-  animation: entraFlutuando 3s;
-  top: 190px;
-}
-@keyframes entraFlutuando {
-  50% {
-    top: 590px;
-  }
-}
 .animaFlutua {
   animation: flutuando 3s ease-in-out infinite;
   top: 190px;
