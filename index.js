@@ -151,6 +151,7 @@ function naveiaAnimaMob1() {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse';
     scrollRotate1(-30);
+    videoOn()
     console.log('ENTRA EM ELSE #FIM');
   }
 }
@@ -184,3 +185,11 @@ function contaScroll() {
 //     caixaA.style.transform = "rotate("+window.pageYOffset+"deg)";
 //     // caixaB.style.transform = "rotate(-"+window.pageYOffset+"deg)";
 // });
+
+
+// FUNÇÃO VIDEO ON / OFF
+function videoOn(){
+  let videoOff = document.getElementById("videoOff");
+  // videoOff.className("videoOn");
+  videoOff.className.replace("videoOn")
+}

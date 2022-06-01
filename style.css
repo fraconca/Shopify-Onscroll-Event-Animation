@@ -124,7 +124,7 @@ div#posDiv {
 div#playerVideo {
   position: absolute;
 }
-#background-video {
+.background-video {
   width: 100vw;
   height: 720px;
   object-fit: cover;
@@ -136,19 +136,22 @@ div#playerVideo {
   z-index: -1;
 }
 @media (max-width: 600px) {
-  #background-video {
+  .background-video {
     /* display: none; */
     height: 100vh;
   }
-  /* #background-video {
+  /* .background-video {
     background: url('https://cdn.shopify.com/s/files/1/0576/1446/7204/files/image_16.png')
       no-repeat;
     background-size: cover;
   } */
 }
-div#claimMarca {
+/* div#claimMarca {
   text-align: center;
   font-size: 105px;
+} */
+#background-video-OFF {
+  display: none;
 }
 
 /* POSICAO CAIXA FIXA + SCROLL + FLUTUA */
