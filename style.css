@@ -132,12 +132,13 @@ div#posDiv {
 img.elAveia {
   position: absolute;
   animation-iteration-count: infinite;
-  animation-name: animaAveia01;
+
   animation-duration: 10s;
 }
 #elAveia01{
   left: 580px;
   top: 310px;
+  animation-name: animaAveia01;
   /* animation-timing-function: linear; */
 }
 @keyframes animaAveia01 {
@@ -157,9 +158,27 @@ img.elAveia {
     width: 105px;
   }
 }
-
 #elAveia02{
-
+  left: 1400px;
+  top: 310px;
+  animation-name: animaAveia02;
+}
+@keyframes animaAveia01 {
+  0% {
+    width: 100px;
+  }
+  25% {
+    width: 105px;
+  }
+  50% {
+    width: 105px;
+  }
+  75% {
+    width: 110px;
+  }
+  100% {
+    width: 105px;
+  }
 }
 
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
