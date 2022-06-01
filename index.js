@@ -150,11 +150,13 @@ function naveiaAnimaMob1() {
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse';
+    document.getElementById('video-Off').className = 'video-On';
     scrollRotate1(-30);
-    videoOn()
     console.log('ENTRA EM ELSE #FIM');
   }
 }
+
+
 
 // FUNCAO ROTACIONAR 1 / LAPTOP + PC
 function scrollRotate1(valRotaciona) {
@@ -185,11 +187,3 @@ function contaScroll() {
 //     caixaA.style.transform = "rotate("+window.pageYOffset+"deg)";
 //     // caixaB.style.transform = "rotate(-"+window.pageYOffset+"deg)";
 // });
-
-
-// FUNÇÃO VIDEO ON / OFF
-function videoOn(){
-  let videoOff = document.getElementById("videoOff");
-  // videoOff.className("videoOn");
-  videoOff.className.replace("videoOn")
-}
