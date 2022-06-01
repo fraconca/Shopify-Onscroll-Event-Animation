@@ -135,30 +135,35 @@ img.elAveia01 {
 }
 img.elAveia01 {
   animation-name: animaAveia;
-  animation-duration: 20s;
-  animation-timing-function: linear;
+  animation-duration: 10s;
+  /* animation-timing-function: linear; */
   animation-iteration-count: infinite;
 }
 @keyframes animaAveia {
   0% {
     left: 580px;
     top: 310px;
+    width: 100px;
   }
   25% {
-    left: 585px;
-    top: 315px;
+    left: 580px;
+    top: 310px;
+    width: 105px;
   }
   50% {
     left: 580px;
     top: 310px;
+    width: 105px;
   }
   75% {
-    left: 585px;
-    top: 315px;
+    left: 580px;
+    top: 310px;
+    width: 110px;
   }
   100% {
     left: 580px;
     top: 310px;
+    width: 105px;
   }
 }
 
