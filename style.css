@@ -422,10 +422,26 @@ div#divCaixaNaveia {
   animation: flutuando 3s ease-in-out infinite;
   top: 190px;
 }
-@keyframes flutuando {
-  50% {
-    transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
-    top: 190px;
+@media screen and (max-width: 1680px) {
+  .animaFlutua {
+    top: 180px;
+  }
+  @keyframes flutuando {
+    50% {
+      transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
+      top: 200px;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .animaFlutua {
+    top: 140px;
+  }
+  @keyframes flutuando {
+    50% {
+      transform: translateY(5px) rotate(-5deg) scale(1.01, 1.01);
+      top: 150px;
+    }
   }
 }
 
