@@ -95,6 +95,16 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff7200; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff7200; 
+}
 .cursorNaveia {
   cursor: url('https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_el_aveia_06.png'),
     auto;
