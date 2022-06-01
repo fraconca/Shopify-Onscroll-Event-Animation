@@ -5,6 +5,8 @@ body {
   margin: auto;
   background-color: #fbf7f6;
   overflow-x: hidden;
+  /* cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto; */
+  cursor: url("https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_el_aveia_06.png"), auto;
 }
 @font-face {
   font-family: trimPosterNaveia;
@@ -424,7 +426,7 @@ div#divCaixaNaveia {
 }
 @media screen and (max-width: 1680px) {
   .animaFlutua {
-    top: 180px;
+    top: 190px;
   }
   @keyframes flutuando {
     50% {
