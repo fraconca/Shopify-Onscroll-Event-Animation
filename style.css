@@ -123,7 +123,6 @@ div#posDiv {
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
 div#playerVideo {
   position: absolute;
-  display: contents;
 }
 #background-video {
   width: 100vw;
@@ -146,6 +145,10 @@ div#playerVideo {
       no-repeat;
     background-size: cover;
   } */
+}
+div#claimMarca {
+  text-align: center;
+  font-size: 105px;
 }
 
 /* POSICAO CAIXA FIXA + SCROLL + FLUTUA */
