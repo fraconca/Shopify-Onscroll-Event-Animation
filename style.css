@@ -131,35 +131,32 @@ div#posDiv {
 /* ANIMAÇÃO >>>>>>>>>>>>>>>>>>>>> GRÃO DE AVEIA */
 img.elAveia01 {
   position: sticky;
-  left: 580px;
-  top: 310px;
   width: 100px;
 }
 img.elAveia01 {
   animation-name: animaAveia;
   animation-duration: 4s;
-  animation: ease-in-out infinite;
 }
 @keyframes animaAveia {
   0% {
-    left: 0px;
-    top: 0px;
+    left: 580px;
+    top: 310px;
   }
   25% {
-    left: 10px;
-    top: 0px;
+    left: 580px;
+    top: 310px;
   }
   50% {
-    left: 20px;
-    top: 20px;
+    left: 580px;
+    top: 310px;
   }
   75% {
-    left: 0px;
-    top: 20px;
+    left: 580px;
+    top: 310px;
   }
   100% {
-    left: 0px;
-    top: 0px;
+    left: 580px;
+    top: 310px;
   }
 }
 
