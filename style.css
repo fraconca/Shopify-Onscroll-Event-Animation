@@ -134,11 +134,12 @@ img.elAveia {
 }
 #elAveia01 {
   left: 32%;
+
   top: 33%;
   width: 5%;
   transform: rotate(-30deg);
-  animation-delay: 1s;
-  animation-duration: 3s;
+  /* animation-delay: 1s; */
+  animation-duration: 1s;
   animation-name: elAveiaEsquerda;
 }
 #elAveia02 {
@@ -146,8 +147,8 @@ img.elAveia {
   top: 27%;
   width: 5%;
   transform: rotate(-30deg);
-  animation-delay: 1s;
-  animation-duration: 3s;
+  /* animation-delay: 1s; */
+  animation-duration: 1s;
   animation-name: elAveiaDireita;
 }
 @media screen and (max-width: 1920px) {
@@ -195,12 +196,12 @@ img.elAveia {
   }
 }
 img#elAveia03 {
-  top: 50%;
+  top: 105%;
   left: -2%;
   width: 7%;
   transform: rotate(180deg);
   position: relative;
-  animation-delay: 1s;
+  /* animation-delay: 1s; */
   animation-duration: 3s;
   animation-name: elAveiaBlur;
 }
@@ -211,7 +212,7 @@ img#elAveia03 {
   }
   100% {
     left: -2%;
-    top: 50%;
+    top: 105%;
   }
 }
 
@@ -231,6 +232,10 @@ div#splashEstatico {
   0% {
     background-position: 50%;
     background-size: 50%;
+  }
+  50% {
+    width: 100%;
+    background-size: 105%;
   }
   100% {
     width: 100%;
