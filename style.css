@@ -104,8 +104,13 @@ header {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 5px 5px 5px 15px #00b3e4;
+  /* box-shadow: inset 5px 5px 5px 15px #00b3e4;  */
+  box-shadow: inset 5px 5px 5px 15px black;
   border-radius: 1px;
+}
+::-webkit-scrollbar-track:hover {
+  /* box-shadow: inset 5px 5px 5px 15px #00b3e4;  */
+  box-shadow: inset 5px 5px 5px 15px #ff7200;
 }
 
 /* Handle */
@@ -116,7 +121,7 @@ header {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: orangered;
+  background: #00b3e4;
 }
 
 .cursorNaveia {
