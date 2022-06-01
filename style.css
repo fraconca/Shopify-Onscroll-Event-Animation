@@ -94,12 +94,14 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
+
 .displayNone {
   display: none;
 }
 .displayContents {
   display: contents;
 }
+
 /* POSIÇÃO GERAL BLOCOS */
 div#posDiv {
   /* margin: auto; */
@@ -125,6 +127,8 @@ div#posDiv {
     height: 525px;
   }
 }
+
+/* ANIMAÇÃO >>>>>>>>>>>>>>>>>>>>> GRÃO DE AVEIA */
 img.elAveia01 {
   position: sticky;
   left: 580px;
@@ -157,6 +161,7 @@ img.elAveia01 {
     top: 0px;
   }
 }
+
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
 div#splashEstatico {
   height: -webkit-fill-available;
