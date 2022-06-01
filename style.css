@@ -131,7 +131,6 @@ div#posDiv {
 /* ANIMAÇÃO >>>>>>>>>>>>>>>>>>>>> GRÃO DE AVEIA */
 img.elAveia01 {
   position: absolute;
-  width: 100px;
 }
 img.elAveia01 {
   animation-name: animaAveia;
