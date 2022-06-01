@@ -94,7 +94,9 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
-
+.displayNone {
+  display: none;
+}
 /* POSIÇÃO GERAL BLOCOS */
 div#posDiv {
   /* margin: auto; */
@@ -123,7 +125,8 @@ div#posDiv {
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
 div#video-OFF {
   background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_01.png);
-  height: 720px;
+  background-position: center;
+  height: -webkit-fill-available;
 }
 #video-ON {
   display: none;

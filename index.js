@@ -26,6 +26,7 @@ if (deviceScreenPC1920) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC1');
   window.onscroll = function () {
+    videoOff();
     naveiaAnimaPC1();
     contaScroll();
   };
@@ -43,6 +44,7 @@ if (deviceScreenPC1680) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC2');
   window.onscroll = function () {
+    videoOff();
     naveiaAnimaPC2();
     contaScroll();
   };
@@ -60,6 +62,7 @@ if (deviceScreenPC1440) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC3');
   window.onscroll = function () {
+    videoOff();
     naveiaAnimaPC3();
     contaScroll();
   };
@@ -71,6 +74,7 @@ if (deviceScreenMobile) {
   console.log('### View Port Height: ' + window.innerHeight + 'px');
   console.log('### Função: animaNaveiaPC2');
   window.onscroll = function () {
+    videoOff();
     naveiaAnimaMob1();
     contaScroll();
   };
@@ -150,13 +154,10 @@ function naveiaAnimaMob1() {
   } else {
     document.getElementById('divCaixaNaveia').className = 'posCaixaParada';
     document.getElementById('gridIco').className = 'gridIcoReverse';
-    document.getElementById('video-Off').className = 'video-On';
     scrollRotate1(-30);
     console.log('ENTRA EM ELSE #FIM');
   }
 }
-
-
 
 // FUNCAO ROTACIONAR 1 / LAPTOP + PC
 function scrollRotate1(valRotaciona) {
@@ -187,3 +188,15 @@ function contaScroll() {
 //     caixaA.style.transform = "rotate("+window.pageYOffset+"deg)";
 //     // caixaB.style.transform = "rotate(-"+window.pageYOffset+"deg)";
 // });
+
+// FUNÇÃO DESABILITA VIDEO
+function videoOff() {
+  var videoOff = document.getElementById('video-OFF');
+  videoOff.className = 'displayNone';
+  console.log(videoOff);
+}
+function videoOn() {
+  var videoOff = document.getElementById('video-OFF');
+  videoOff.className = 'displayNone';
+  console.log(videoOff);
+}
