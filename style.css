@@ -96,8 +96,21 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* Handle */
+
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #00b3e4; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ff7200; 
+  background: #00b3e4; 
   border-radius: 10px;
 }
 
@@ -105,6 +118,7 @@ header {
 ::-webkit-scrollbar-thumb:hover {
   background: #ff7200; 
 }
+
 .cursorNaveia {
   cursor: url('https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_el_aveia_06.png'),
     auto;
