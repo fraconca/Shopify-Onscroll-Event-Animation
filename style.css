@@ -324,6 +324,9 @@ div#playerVideo {
   position: relative;
   width: 300px;
   top: 1500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 @media screen and (max-width: 1920px) {
   .posCaixaParada {
