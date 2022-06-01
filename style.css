@@ -131,7 +131,7 @@ div#splashEstatico {
   background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_01.png);
   background-position: center;
   animation-name: bgSplash;
-  animation-duration: 1s;
+  animation-duration: 6s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
 }
@@ -140,10 +140,10 @@ div#splashEstatico {
     background-position: 50%;
   }
   25% {
-    background-position: 55%;
+    background-position: 51%;
   }
   50% {
-    background-position: 55%;
+    background-position: 51%;
   }
   100% {
     background-position: 50%;
