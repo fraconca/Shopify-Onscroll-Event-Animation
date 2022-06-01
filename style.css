@@ -132,33 +132,23 @@ div#posDiv {
 img.elAveia {
   position: absolute;
   animation-iteration-count: infinite;
-
-  animation-duration: 10s;
+  animation-duration: 5s;
 }
-#elAveia01{
+#elAveia01 {
   left: 580px;
   top: 310px;
   animation-name: animaAveia01;
-  /* animation-timing-function: linear; */
+  animation-timing-function: linear;
 }
 @keyframes animaAveia01 {
   0% {
     width: 100px;
   }
-  25% {
-    width: 105px;
-  }
-  50% {
-    width: 105px;
-  }
-  75% {
-    width: 110px;
-  }
   100% {
     width: 105px;
   }
 }
-#elAveia02{
+#elAveia02 {
   left: 1400px;
   top: 310px;
   animation-name: animaAveia02;
