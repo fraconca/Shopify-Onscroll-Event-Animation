@@ -121,6 +121,9 @@ div#posDiv {
   }
 }
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
+#playerVideo {
+  display: none;
+}
 div#playerVideo {
   position: absolute;
 }
