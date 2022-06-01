@@ -128,9 +128,6 @@ div#video-OFF {
   background-position: center;
   height: -webkit-fill-available;
 }
-#video-ON {
-  display: none;
-}
 div#playerVideo {
   position: absolute;
 }
