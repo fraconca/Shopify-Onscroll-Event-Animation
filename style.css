@@ -123,7 +123,7 @@ div#posDiv {
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
 #background-video {
   width: 100vw;
-  height: 100vh;
+  height: 720px;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -135,6 +135,7 @@ div#posDiv {
 @media (max-width: 600px) {
   #background-video {
     display: none;
+    height: 525px;
   }
   body {
     background: url('https://cdn.shopify.com/s/files/1/0576/1446/7204/files/image_16.png')
