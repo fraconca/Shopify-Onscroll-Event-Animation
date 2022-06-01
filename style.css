@@ -121,7 +121,11 @@ div#posDiv {
   }
 }
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
-#playerVideo {
+div#video-OFF {
+  background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_01.png);
+  height: 720px;
+}
+#video-ON {
   display: none;
 }
 div#playerVideo {
