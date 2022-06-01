@@ -194,6 +194,26 @@ img.elAveia {
     width: 8%;
     transform: rotate(-30deg);
   }
+  @keyframes elAveiaEsquerda {
+    0% {
+      left: 50%;
+      top: 50%;
+    }
+    100% {
+      left: 30%;
+      top: 38%;
+    }
+  }
+  @keyframes elAveiaDireita {
+    0% {
+      left: 50%;
+      top: 50%;
+    }
+    100% {
+      left: 65%;
+      top: 50%;
+    }
+  }
 }
 img#elAveia03 {
   top: 105%;
@@ -216,7 +236,7 @@ img#elAveia03 {
   }
 }
 
-/* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
+/* ANIMA + VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
 div#splashEstatico {
   height: -webkit-fill-available;
   background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_02.png);
@@ -301,16 +321,6 @@ div#playerVideo {
   .posCaixaFixa {
     /* top: 120px; */
     top: 140px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .posCaixaFixa {
-    top: 100px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .posCaixaFixa {
-    top: 100px;
   }
 }
 @media screen and (max-width: 360px) {
