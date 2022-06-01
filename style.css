@@ -323,7 +323,7 @@ div#playerVideo {
 .posCaixaParada {
   position: relative;
   width: 300px;
-  top: 1500px;
+  top: 1710px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -331,8 +331,7 @@ div#playerVideo {
 @media screen and (max-width: 1920px) {
   .posCaixaParada {
     position: relative;
-    /* top: 1800px; */
-    top: 1720px;
+    top: 1710px;
   }
 }
 @media screen and (max-width: 1680px) {
