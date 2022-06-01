@@ -112,12 +112,34 @@ div#posDiv {
 }
 #blocoSplash {
   height: 720px;
-  background-color: bisque;
+  /* background-color: bisque; */
   /* margin: auto; */
 }
 @media screen and (max-width: 360px) {
   #blocoSplash {
     height: 525px;
+  }
+}
+/* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (max-width: 600px) {
+  #background-video {
+    display: none;
+  }
+  body {
+    background: url('https://cdn.shopify.com/s/files/1/0576/1446/7204/files/image_16.png')
+      no-repeat;
+    background-size: cover;
   }
 }
 
