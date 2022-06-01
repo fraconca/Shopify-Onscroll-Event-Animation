@@ -174,6 +174,12 @@ img.elAveia {
     transform: rotate(-30deg);
   }
 }
+img#elAveia03 {
+  left: -2%;
+  top: 700px;
+  width: 7%;
+  transform: rotate(180deg);
+}
 
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
 div#splashEstatico {
