@@ -132,7 +132,7 @@ div#posDiv {
 img.elAveia {
   position: absolute;
 }
-@media screen and (max-width: 2560px) {
+
   #elAveia01 {
     left: 35%;
     top: 25%;
@@ -145,7 +145,6 @@ img.elAveia {
     width: 5%;
     transform: rotate(-30deg);
   }
-}
 @media screen and (max-width: 1920px) {
   #elAveia01 {
     left: 30%;
@@ -175,10 +174,24 @@ img.elAveia {
   }
 }
 img#elAveia03 {
+  top: 50%;
   left: -2%;
-  top: 700px;
   width: 7%;
   transform: rotate(180deg);
+  position: relative;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-name: elAveiaBlur;
+}
+@keyframes elAveiaBlur {
+  0% {
+    left: -10%;
+    top: 50%;
+  }
+  100% {
+    left: -2%;
+    top: 50%;
+  }
 }
 
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
