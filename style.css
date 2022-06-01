@@ -133,42 +133,51 @@ img.elAveia {
   position: absolute;
 }
   #elAveia01 {
-    left: 35%;
-    top: 25%;
+    left: 32%;
+    top: 33%;
     width: 5%;
     transform: rotate(-30deg);
     animation-delay: 1s;
     animation-duration: 3s;
     animation-name: elAveiaEsquerda;
   }
-  @keyframes elAveiaEsquerda {
-    0% {
-      left:0%;
-      top: 25%;
-    }
-    100% {
-      left:35%;
-      top: 25%;
-    }
-  }
   #elAveia02 {
     left: 60%;
     top: 27%;
     width: 5%;
     transform: rotate(-30deg);
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-name: elAveiaDireita;
   }
 @media screen and (max-width: 1920px) {
   #elAveia01 {
-    left: 30%;
-    top: 30%;
     width: 5%;
     transform: rotate(10deg);
   }
   #elAveia02 {
-    left: 60%;
-    top: 52%;
     width: 5%;
     transform: rotate(-15deg);
+  }
+  @keyframes elAveiaEsquerda {
+    0% {
+      left:50%;
+      top: 50%;
+    }
+    100% {
+      left:32%;
+      top: 33%;
+    }
+  }
+  @keyframes elAveiaDireita {
+    0% {
+      left:50%;
+      top: 50%;
+    }
+    100% {
+      left: 60%;
+      top: 27%;
+    }
   }
 }
 @media screen and (max-width: 1440px) {
