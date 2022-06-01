@@ -132,12 +132,24 @@ div#posDiv {
 img.elAveia {
   position: absolute;
 }
-
   #elAveia01 {
     left: 35%;
     top: 25%;
     width: 5%;
     transform: rotate(-30deg);
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-name: elAveiaEsquerda;
+  }
+  @keyframes elAveiaEsquerda {
+    0% {
+      left:0%;
+      top: 25%;
+    }
+    100% {
+      left:35%;
+      top: 25%;
+    }
   }
   #elAveia02 {
     left: 60%;
