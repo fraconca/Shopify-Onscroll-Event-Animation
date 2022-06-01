@@ -6,7 +6,6 @@ body {
   background-color: #fbf7f6;
   overflow-x: hidden;
   /* cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto; */
-  cursor: url("https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_el_aveia_06.png"), auto;
 }
 @font-face {
   font-family: trimPosterNaveia;
@@ -96,7 +95,10 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
-
+.cursorNaveia {
+  cursor: url('https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_el_aveia_06.png'),
+    auto;
+}
 .displayNone {
   display: none;
 }
