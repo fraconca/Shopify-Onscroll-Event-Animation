@@ -138,6 +138,7 @@ img.elAveia01 {
 img.elAveia01 {
   animation-name: animaAveia;
   animation-duration: 4s;
+  animation: ease-in-out infinite;
 }
 @keyframes animaAveia {
   0% {
