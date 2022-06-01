@@ -95,35 +95,36 @@ header {
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
 /* APAGAR BLOCOS ACIMA APÓS DEPLOY */
+
 /* Handle */
 
-/* width */
+/* SCROLL BAR */
 ::-webkit-scrollbar {
   width: 14px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   /* box-shadow: inset 5px 5px 5px 15px #00b3e4;  */
   box-shadow: inset 5px 5px 5px 15px black;
   border-radius: 1px;
 }
 ::-webkit-scrollbar-track:hover {
-  /* box-shadow: inset 5px 5px 5px 15px #00b3e4;  */
   box-shadow: inset 5px 5px 5px 15px #ff7200;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #ff7200;
   border-radius: 25px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #00b3e4;
 }
+::-webkit-scrollbar-thumb:vertical {
+  height: 100px;
+  -webkit-border-image: url("https://icon-library.com/images/arrow-png-icon/arrow-png-icon-5.jpg") 8 0 8 0 stretch stretch;
+  border-width: 8 0 8 0;
+}
 
+
+/* CURSOR */
 .cursorNaveia {
   cursor: url('https://cdn.shopify.com/s/files/1/0576/1446/7204/files/splash_home_el_aveia_06.png'),
     auto;
