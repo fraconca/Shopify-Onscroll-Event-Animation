@@ -134,14 +134,14 @@ div#posDiv {
 }
 @media (max-width: 600px) {
   #background-video {
-    display: none;
-    height: 525px;
+    /* display: none; */
+    height: 100vh;
   }
-  body {
+  /* #background-video {
     background: url('https://cdn.shopify.com/s/files/1/0576/1446/7204/files/image_16.png')
       no-repeat;
     background-size: cover;
-  }
+  } */
 }
 
 /* POSICAO CAIXA FIXA + SCROLL + FLUTUA */
