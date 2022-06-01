@@ -123,6 +123,7 @@ div#posDiv {
 /* VIDEO >>>>>>>>>>>>>>>>>>>>>> SPLASH */
 div#playerVideo {
   position: absolute;
+  display: contents;
 }
 #background-video {
   width: 100vw;
