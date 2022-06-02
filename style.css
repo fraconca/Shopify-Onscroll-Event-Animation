@@ -737,7 +737,7 @@ img#elInstlSPlash {
 h1#inst-h1,
 h5#inst-h5 {
   /* margin: 25%; */
-  margin: 5% 25% 5% 25%;
+  margin: 10px 25% 10px 25%;
 }
 h1#inst-h1 {
   font-size: 40px;
@@ -747,8 +747,8 @@ div#inst-headings {
   height: inherit;
   display: flex;
   align-content: center;
+  justify-content: center;
   flex-direction: column;
-  justify-content: space-between;
 }
 @media screen and (max-width: 1920px) {
   img#imgInst {
