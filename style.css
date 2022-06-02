@@ -119,7 +119,7 @@ header {
 }
 ::-webkit-scrollbar-thumb:vertical {
   height: 100px;
-  -webkit-border-image: url("https://icon-library.com/images/arrow-png-icon/arrow-png-icon-5.jpg") 8 0 8 0 stretch stretch;
+  -webkit-border-image: url("https://cdn.shopify.com/s/files/1/0576/1446/7204/files/scrollBar_02.png") 8 0 8 0 stretch stretch;
   border-width: 8 0 8 0;
 }
 
