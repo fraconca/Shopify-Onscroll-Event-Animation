@@ -627,7 +627,8 @@ section#blocoIcones {
   max-width: 1200px;
   margin: auto;
   /* margin-top: 50px; */
-  margin-top: 150px;
+  /* margin-top: 150px; */
+  margin-top: 200px;
   margin-bottom: 100px;
 }
 @media screen and (max-width: 1920px) {
@@ -703,14 +704,19 @@ img#icoOmega3 {
 section#instlSustentabilidade {
   height: 100vh;
 }
+
 #inst-col-2 {
   display: flex;
-  flex-direction: row;
-  align-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  height: 95vh;
+  /* flex-direction: row;
+  align-content: center; */
 }
 #instlFazenda,
 #instSplash {
-  height: 100vh;
+  /* height: 100vh; */
+  height: 40vh;
   width: 50%;
 }
 #instlFazenda {
