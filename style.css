@@ -748,6 +748,7 @@ section#instlSustentabilidade {
     flex-direction: column;
   }
 }
+
 #instlFazenda,
 #instSplash {
   /* height: 100vh; */
@@ -759,6 +760,7 @@ section#instlSustentabilidade {
     display: none;
   }
 }
+
 #instlFazenda {
   background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/elHome_07.jpg);
   background-position: center;
@@ -773,6 +775,13 @@ section#instlSustentabilidade {
     height: 100vh;
   }
 }
+
+h1#inst-h1-centro {
+  text-align: center;
+  font-size: 120px;
+  letter-spacing: 3px;
+}
+
 img#elInstlSPlash {
   position: absolute;
   width: 55%;
