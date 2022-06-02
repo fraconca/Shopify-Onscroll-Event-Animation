@@ -102,7 +102,7 @@ bar {
 }
 /* SCROLL BAR */
 ::-webkit-scrollbar {
-  width: 14px;
+  width: 15px;
 }
 ::-webkit-scrollbar-track {
   /* box-shadow: inset 5px 5px 5px 15px #00b3e4;  */
