@@ -736,7 +736,12 @@ img#elInstlSPlash {
 }
 h1#inst-h1,
 h5#inst-h5 {
-  margin: 25%;
+  /* margin: 25%; */
+  margin: 5% 25% 5% 25%;
+}
+h1#inst-h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
 }
 div#inst-headings {
   height: inherit;
