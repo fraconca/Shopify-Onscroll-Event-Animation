@@ -700,11 +700,44 @@ img#icoOmega3 {
 }
 
 /* BLOCO >>>>>>>>>>>>>>> INSTITUCIONAL */
-img#imgInst {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+section#instlSustentabilidade {
+  height: 100vh;
+}
+#inst-col-2 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+#instlFazenda,
+#instSplash {
+  height: 100vh;
+  width: 50%;
+}
+#instlFazenda {
+  background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/elHome_07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: -360px;
+}
+img#elInstlSPlash {
+  position: absolute;
+  width: 55%;
+  right: 0px;
+  top: 20%;
+  margin-right: 25px;
+}
+h1#inst-h1,
+h5#inst-h5 {
+  margin: 25%;
+}
+div#inst-headings {
+  height: inherit;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 @media screen and (max-width: 1920px) {
   img#imgInst {
