@@ -297,6 +297,13 @@ div#splashEstatico {
     background-size: 100%;
   }
 }
+@media (max-width: 360px) {
+  div#splashEstatico {
+    height: 100vh;
+    width: 460%;
+    margin-left: -620px;
+  }
+}
 div#playerVideo {
   position: absolute;
 }
@@ -498,6 +505,13 @@ section#blocoMarqueeDeleiteVegetal {
   margin-top: 75px;
   margin-bottom: 75px;
 }
+@media screen and (max-width: 360px) {
+  section#blocoMarqueeDeleiteVegetal {
+    /* margin-top: -75px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
 .rotacionaMarq {
   transform: rotate(-2deg);
 }
@@ -518,6 +532,11 @@ section#blocoMarqueeDeleiteVegetal {
   margin: auto;
   overflow: hidden;
   z-index: 0;
+}
+@media screen and (max-width: 360px) {
+  .m-scroll__INV {
+    z-index: 10;
+  }
 }
 
 .m-scroll__title {
@@ -544,6 +563,7 @@ section#blocoMarqueeDeleiteVegetal {
   white-space: nowrap;
   transform: scale(2);
 }
+
 .m-scroll__title > div {
   display: flex;
   animation: scrollText 360s infinite linear;
@@ -640,6 +660,11 @@ section#blocoIcones {
   section#blocoIcones {
     z-index: 1;
     position: relative;
+    background-color: #fbf7f6;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding-top: 55px;
+    padding-bottom: 50px;
   }
 }
 div#gridIco {
@@ -670,6 +695,9 @@ div#posDireita {
   div#posEsquerda {
     width: 100%;
     text-align: inherit;
+    background-color: #fbf7f6;
+    /* background-color: peachpuff; */
+    /* background-color: wheat; */
   }
 }
 
@@ -690,19 +718,20 @@ img#icoOmega3 {
     width: 50%;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 360px) {
   div#gridIco > div > div > img {
     width: 60%;
-  }
-  section#blocoIcones {
-    margin-top: 100px;
-    margin-bottom: 100px;
   }
 }
 
 /* BLOCO >>>>>>>>>>>>>>> INSTITUCIONAL */
 section#instlSustentabilidade {
   height: 100vh;
+}
+@media screen and (max-width: 360px) {
+  section#instlSustentabilidade {
+    height: 50vh;
+  }
 }
 
 #inst-col-2 {
@@ -713,11 +742,22 @@ section#instlSustentabilidade {
   /* flex-direction: row;
   align-content: center; */
 }
+@media screen and (max-width: 360px) {
+  #inst-col-2 {
+    height: 90vh;
+    flex-direction: column;
+  }
+}
 #instlFazenda,
 #instSplash {
   /* height: 100vh; */
-  height: 40vh;
-  width: 50%;
+  /* height: 40vh; */
+  width: 100%;
+}
+@media screen and (max-width: 360px) {
+  #instSplash {
+    display: none;
+  }
 }
 #instlFazenda {
   background-image: url(https://cdn.shopify.com/s/files/1/0576/1446/7204/files/elHome_07.jpg);
@@ -727,6 +767,12 @@ section#instlSustentabilidade {
   background-size: cover;
   background-position-x: -360px;
 }
+@media screen and (max-width: 360px) {
+  #instlFazenda {
+    background-position-x: center;
+    height: 100vh;
+  }
+}
 img#elInstlSPlash {
   position: absolute;
   width: 55%;
@@ -734,10 +780,18 @@ img#elInstlSPlash {
   top: 20%;
   margin-right: 25px;
 }
+
 h1#inst-h1,
 h5#inst-h5 {
   /* margin: 25%; */
   margin: 10px 25% 10px 25%;
+}
+@media screen and (max-width: 360px) {
+  h1#inst-h1,
+  h5#inst-h5 {
+    margin: 10px 15% 10px 15%;
+    font-size: 18px;
+  }
 }
 h1#inst-h1 {
   font-size: 40px;
@@ -750,13 +804,8 @@ div#inst-headings {
   justify-content: center;
   flex-direction: column;
 }
-@media screen and (max-width: 1920px) {
-  img#imgInst {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1440px) {
-  img#imgInst {
-    width: 100%;
+@media screen and (max-width: 360px) {
+  div#inst-headings {
+    height: auto;
   }
 }
