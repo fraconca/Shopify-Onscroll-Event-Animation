@@ -1,3 +1,4 @@
-# js-srnjqg
+# Shopify Naveia - Onscroll Event Animation
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-srnjqg)
+[Feito no StackBlitz ⚡️](https://stackblitz.com/edit/js-srnjqg)
+[Veja finalizado no site Naveia 🥛](https://www2.naveia.com.br/)
